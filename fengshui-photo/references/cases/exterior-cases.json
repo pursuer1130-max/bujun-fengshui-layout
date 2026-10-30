@@ -1,0 +1,292 @@
+{
+  "schema_version": "knowledge-v7-exterior-1",
+  "accessed_at": "2026-10-29",
+  "scope": "外局、邻楼、坡地、门外走廊与斜顶的原作者公开文字研读",
+  "rights": "metadata_and_short_original_notes_only; no copied images or full text",
+  "verification": {
+    "baseline_checked": "references/cases/cases.jsonl",
+    "new_canonical_urls_against_case_ledger": 6,
+    "known_archive_url_among_them": "EXV7-006 was already mentioned by recorded-sources.md, but was not a case-ledger record",
+    "source_documents_read": 6,
+    "case_groups": 6,
+    "classification_counts": {
+      "practice_self_report": 3,
+      "named_development_teaching_review": 2,
+      "selected_reader_qa": 1
+    },
+    "images_viewed": 0,
+    "images_copied": 0,
+    "independently_verified_outcomes": 0,
+    "counting_limit": "6个文字材料组；不是6份已经独立核验的咨询报告，也不构成任何万例完成声明。"
+  },
+  "cases": [
+    {
+      "record_id": "EXV7-001",
+      "case_group_id": "jy-2006-audited-property-sha-qi",
+      "canonical_url": "https://www.joeyyap.com/tutorial/tutorial-details.asp?tid=523",
+      "source_title": "Right Way to Handle Sha Qi",
+      "author_or_org": "Joey Yap",
+      "published_at": "2006-11-26",
+      "record_kind": "practice_self_report_with_teaching",
+      "source_role": "original_author",
+      "actual_read_scope": "Article body, Consider Distance / Does the Qi really Sha? / What's the Sha Qi pointing at?; web lines 132–160",
+      "source_note": {
+        "spatial_facts_reported": "作者称所审住宅附近有道路，实际从宅内不可见；入口附近有阶梯及指向主门的柱角。",
+        "author_interpretation": "作者以距离、可见性和指向目标区分轻重；阶梯判为可取，柱角另论，水塔亦非一概不利。",
+        "limits": "未看图片，水塔是否同宅不明；仅作同文一组，不采纳其性别、人事断语。"
+      },
+      "spatial_evidence": "source_text_reported_not_independently_observed",
+      "grouping": "同文道路、阶梯、柱角合组；水塔只作教学反例，不另计住宅。",
+      "outcome_status": "no_verified_outcome",
+      "rule_ids": [
+        "EX-R1",
+        "EX-R4"
+      ],
+      "tags": [
+        "道路转弯",
+        "距离",
+        "可见性",
+        "柱角",
+        "主门",
+        "阶梯"
+      ]
+    },
+    {
+      "record_id": "EXV7-002",
+      "case_group_id": "myfengshui-upper-hutt-office",
+      "canonical_url": "https://www.myfengshui.co.nz/post/upper-hutt-office-roads-entrance-workplace-layout",
+      "source_title": "Office Feng Shui in Upper Hutt: Roads, Entrance and Workplace Layout",
+      "author_or_org": "Master You · 由心老师 / Feng Shui Master You Limited",
+      "published_at": null,
+      "date_note": "Page displays Sep 28, Updated Sep 30 without year; do not infer year from crawl date.",
+      "record_kind": "practice_self_report_anonymised",
+      "source_role": "original_consultant",
+      "actual_read_scope": "Main article including image caveat, Start outside / Different rooms / Keep diagnosis / review order; web lines 57–70",
+      "source_note": {
+        "spatial_facts_reported": "办公室邻多条道路及环岛；入口有尖锐几何关系，走廊需过渡，内部区分接待与工作区。",
+        "author_interpretation": "作者从路边移动经行人入口到接待区评估，再分别处理桌位与隐私。",
+        "limits": "配图明示为示意；外部景观另需研究，正文只报布局方向，未证实实施或绩效。"
+      },
+      "spatial_evidence": "source_text_reported_not_independently_observed",
+      "grouping": "同一Upper Hutt办公室；英文与所链中文为同案，不另计。",
+      "outcome_status": "recommendations_only_external_redesign_separate",
+      "rule_ids": [
+        "EX-R3",
+        "EX-R5"
+      ],
+      "tags": [
+        "办公室",
+        "道路",
+        "环岛",
+        "入口",
+        "走廊",
+        "过渡"
+      ]
+    },
+    {
+      "record_id": "EXV7-003",
+      "case_group_id": "myfengshui-omaha-sloping-site",
+      "canonical_url": "https://www.myfengshui.co.nz/post/omaha-sloping-site-position-orientation-feng-shui",
+      "source_title": "Building on a Sloping Omaha Site: Position, Orientation and Landscape",
+      "author_or_org": "Master You · 由心老师 / Feng Shui Master You Limited",
+      "published_at": null,
+      "date_note": "Page displays Sep 28, Updated Sep 30 without year.",
+      "record_kind": "practice_self_report_design_proposal",
+      "source_role": "original_consultant",
+      "actual_read_scope": "Main article including image caveat, Position and height / Orientation / Courtyard / result; web lines 57–74",
+      "source_note": {
+        "spatial_facts_reported": "Omaha坡地拟建住宅邻山脊，前方有小片较平地；建议略前移、调标高和前庭，检车道弯向。",
+        "author_interpretation": "作者把靠势、院落与到达路线联看，待建筑方案定后现场精测朝向。",
+        "limits": "图为示意；现存是建议，非建成回访；整地和车道需设计与许可核实。"
+      },
+      "spatial_evidence": "source_text_reported_not_independently_observed",
+      "grouping": "同一Omaha拟建咨询；英文与所链中文合组。",
+      "outcome_status": "proposal_not_verified_built",
+      "rule_ids": [
+        "EX-R5"
+      ],
+      "tags": [
+        "坡地",
+        "山脊",
+        "标高",
+        "前庭",
+        "车道",
+        "朝向待测"
+      ]
+    },
+    {
+      "record_id": "EXV7-004",
+      "case_group_id": "geomancy-towner-residences",
+      "canonical_url": "https://www.geomancy.net/forums/topic/18428-hdb-towner-residences-august-2021-build-to-order-which-units-are-lucky/",
+      "source_title": "HDB Towner Residences — selected exterior and corridor sections",
+      "author_or_org": "Cecil Lee / Geomancy.Net",
+      "published_at": "2021-09-17",
+      "record_kind": "named_development_teaching_review",
+      "source_role": "original_forum_author_and_site_staff",
+      "actual_read_scope": "2021-09-17 Case Study 1–3 and 7; web lines 323–408 and 527–530. Did not review later star-ranking diagrams or brochures.",
+      "source_note": {
+        "spatial_facts_reported": "225座号近停车楼角；五层屋顶园有凹口，229/231近园灯杆；221门前有墙，另假设位才对长廊。",
+        "author_interpretation": "作者承认角度不清、灯杆未必对开口；门前墙不属大问题。另提示查学校屋顶线与楼层。",
+        "limits": "仅文字；无实测视线。作者七层建议属该案，不能变成普遍门槛。"
+      },
+      "spatial_evidence": "source_text_reported_not_independently_observed",
+      "grouping": "同一发展项目内座号及Case Study标签合成一组，不按座号、图或回帖增加案数。",
+      "outcome_status": "prospective_review_no_verified_occupant_outcome",
+      "rule_ids": [
+        "EX-R2",
+        "EX-R3"
+      ],
+      "tags": [
+        "邻楼尖角",
+        "停车楼",
+        "屋顶",
+        "灯杆",
+        "楼层",
+        "门外走廊",
+        "门前墙"
+      ]
+    },
+    {
+      "record_id": "EXV7-005",
+      "case_group_id": "geomancy-grove-spring-yishun",
+      "canonical_url": "https://www.geomancy.net/forums/topic/18949-hdb-grove-spring-yishun-feb-2022-build-to-order-which-units-are-lucky/",
+      "source_title": "HDB Grove Spring @ Yishun — Case Study 6",
+      "author_or_org": "Cecil Lee / Geomancy.Net",
+      "published_at": "2022-03-04",
+      "record_kind": "named_development_teaching_review",
+      "source_role": "original_forum_author_and_site_staff",
+      "actual_read_scope": "2022-03-04 Case Study 6, web lines 672–678, with surrounding author/date. Not a review of the whole thread.",
+      "source_note": {
+        "spatial_facts_reported": "文中讨论邻座楼角可能指向客厅窗，未给可据本次文字确认的具体座号与尺寸。",
+        "author_interpretation": "作者认为客厅窗受角较难处理，须进入所选单位核实。",
+        "limits": "属候选风险而非已确认角冲；未看图、未现场观察，不能从总平面代判每层每户。"
+      },
+      "spatial_evidence": "potential_relation_in_source_text_only",
+      "grouping": "同一Grove Spring项目；邻楼角只取此条，不合计主题内其它排名或回帖。",
+      "outcome_status": "prospective_review_no_verified_occupant_outcome",
+      "rule_ids": [
+        "EX-R2"
+      ],
+      "tags": [
+        "邻楼尖角",
+        "客厅窗",
+        "现场视点",
+        "高层",
+        "不确定关系"
+      ]
+    },
+    {
+      "record_id": "EXV7-006",
+      "case_group_id": "geomancy-selected-qa-sloping-ceiling",
+      "canonical_url": "https://www.geomancy.net/content/feng-shui-resources/fun-with-feng-shui/case-studies",
+      "source_title": "Case Studies — sloping-ceiling bedroom question",
+      "author_or_org": "Geomancy.Net; selected-reader-Q&A page, individual answer byline not displayed in read section",
+      "published_at": null,
+      "record_kind": "selected_reader_qa",
+      "source_role": "original_site_teaching_collection",
+      "actual_read_scope": "Collection guidelines and first sloping-ceiling Q&A only; web lines 248–260",
+      "source_note": {
+        "spatial_facts_reported": "匿名读者称卧室斜顶与网站图例相似；未给净高或床位尺寸。",
+        "author_interpretation": "答复称低净高时吊平顶可能不可行，列四柱床框或保持现状的取舍。",
+        "limits": "属读者教学问答，非已实施个案；未看图。床架建议无效果验证，亦非横梁结构鉴定。"
+      },
+      "spatial_evidence": "reader_description_no_independent_geometry",
+      "grouping": "只取第一则斜顶问答；不同URL镜像不另计，该页其余问答不纳入本轮案例。",
+      "outcome_status": "advice_only_no_follow_up",
+      "rule_ids": [
+        "EX-R6"
+      ],
+      "tags": [
+        "斜顶",
+        "卧室",
+        "净高",
+        "吊顶",
+        "教学问答"
+      ]
+    }
+  ],
+  "candidate_rules": [
+    {
+      "rule_id": "EX-R1",
+      "judgment": "外局先核实际作用关系，再引用形名。",
+      "conditions": "记录物体与住宅距离、从实际开口能否看见、被遮挡情况，以及道路或角线是否朝该开口。",
+      "action": "只有平面邻近或远景小点时写待核，不直接判为住宅已受冲；可见性与距离分别记录。",
+      "limits": "源于作者形势取法，不是物理定律。被遮挡也不能排除交通噪声、眩光等独立问题；不建立固定米数阈值。",
+      "basis": [
+        "EXV7-001"
+      ]
+    },
+    {
+      "rule_id": "EX-R2",
+      "judgment": "邻楼角、屋顶线及灯杆须按具体楼层和开口复核。",
+      "conditions": "同一座号不同层可能在角线、屋顶或灯杆的上方、下方或侧方；到实际客厅窗等位置观察，并核尺度和遮挡。",
+      "action": "信息不足用可能指向；不把总平面交线或照片重叠写成已确认冲射，不从别案移用七楼等门槛。",
+      "limits": "本轮未验证所引项目几何；避开角线不保证采光、噪声、视线私密或其它条件最优。",
+      "basis": [
+        "EXV7-004",
+        "EXV7-005"
+      ]
+    },
+    {
+      "rule_id": "EX-R3",
+      "judgment": "门前墙、门正对长廊及公共路线狭窄分项判断。",
+      "conditions": "核墙距、门扇活动、实际转弯路径、是否真正处于走廊轴线以及开口通达性。",
+      "action": "墙面可形成视线缓冲；若已经有转折，不机械再加屏风。办公室还须串联道路到接待区的到达路线。",
+      "limits": "缓冲不能占公共走廊或妨碍通行；同门前墙案例不导出所有对墙皆吉。",
+      "basis": [
+        "EXV7-002",
+        "EXV7-004"
+      ]
+    },
+    {
+      "rule_id": "EX-R4",
+      "judgment": "阶梯与其旁的柱角是不同观察对象。",
+      "conditions": "把台阶升降方向、落点和旁边转角分别记录，确认各自对准哪里。",
+      "action": "不能因入口画面里有楼梯，便把真正的柱角关系归因给楼梯；作者关于叠水的解释保留特定取法。",
+      "limits": "这篇入口正面例不能覆盖所有楼梯；亦不能据阶梯形名断人事。",
+      "basis": [
+        "EXV7-001"
+      ]
+    },
+    {
+      "rule_id": "EX-R5",
+      "judgment": "坡地方案须把建筑落位、标高、前庭和到达路线一起比较。",
+      "conditions": "先核高低地及可用平地；方案变动后重查车道、步行路径、院落边界和视野，定案后再现场精测朝向。",
+      "action": "区分初步建议、可实施设计和建成回访；不把保留图上的方向直接宣布为最终坐向。",
+      "limits": "坡面、整地、挡土与排水可行性需专业核实；植栽不能代替工程。外景观未做完时不称外局已整体解决。",
+      "basis": [
+        "EXV7-002",
+        "EXV7-003"
+      ]
+    },
+    {
+      "rule_id": "EX-R6",
+      "judgment": "斜顶与横梁、低净高须区分，吊平顶并非无条件方案。",
+      "conditions": "先记录斜面最低处、站立与起身位置、床及通道可用净高；横梁另列，不从斜顶词替代结构事实。",
+      "action": "可以保留现状并先试摆，不能为视觉平顶而牺牲净高；把四柱床仅列为来源建议，不默认推荐添重物。",
+      "limits": "没有尺寸与现场不能判改造可行；本问答无改善效果或结构安全证据。",
+      "basis": [
+        "EXV7-006"
+      ]
+    }
+  ],
+  "excluded_or_not_counted": [
+    {
+      "url": "https://masterboon.com/2020/10/08/how-feng-shui-can-manifest-itself-case-study-part-1/",
+      "reason": "正文已读，但为已收MORE-007之Part 2的同案前篇，不另加独立案例。"
+    },
+    {
+      "url": "https://guzarchitects.com/portfolio/botanica-2/",
+      "reason": "搜索正文可见但直接打开两次超时，仅作建筑原站候选，不称完整项目正文已读，不入六组。"
+    },
+    {
+      "url": "https://www.white-design.com/a-house-on-a-slope-by-a-botanical-garden-in-singapore/",
+      "reason": "已读二手建筑介绍，改查建筑师原站后未取得完整正文；不作为风水原作者案例。"
+    },
+    {
+      "url": "https://www.myfengshui.co.nz/post/entrance-signage-spatial-pressure-feng-shui-case-study",
+      "reason": "打开失败，仅目录与链接不能当正文已读。"
+    }
+  ],
+  "distribution_note": "Original short reading notes with source pointers; no source article or customer image included."
+}

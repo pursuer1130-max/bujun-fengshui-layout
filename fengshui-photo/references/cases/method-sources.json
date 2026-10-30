@@ -1,0 +1,261 @@
+{
+  "document": "method-comparison.md",
+  "purpose": "按原作者、版本、对象及资料层级比较方法，支持有条件的布局取舍。",
+  "accessed_at": "2026-10-29",
+  "reading_scope": {
+    "local": [
+      {
+        "path": "references/cases/patterns.md",
+        "coverage": "全文K01–K16及来源/边界说明",
+        "status": "read"
+      },
+      {
+        "path": "references/schools-and-inputs.md",
+        "coverage": "全文",
+        "status": "read"
+      },
+      {
+        "path": "references/cases/cases.jsonl",
+        "coverage": "核对60条计数、全部ID及类型汇总；按元数据检索，重点完整重读WEB-YU-001、ED-001、ED-003、MORE-002、MORE-008、ROUND2-009、ROUND2-010、ROUND2-012的本地短笔记与未知项；不称全文重读全部60条原始记录",
+        "status": "selected_local_notes_reviewed_not_all_original_sources_reread"
+      },
+      {
+        "path": "SKILL.md",
+        "coverage": "全文；采用纯知识维护模式",
+        "status": "read"
+      }
+    ],
+    "images_viewed": 0,
+    "images_processed": 0,
+    "case_records_added": 0,
+    "natal_or_annual_charts_generated": 0,
+    "source_fulltexts_saved": false,
+    "explanatory_tables": "原创比较与工作约定；非古籍或作者表格的复刻"
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.joeyyap.com/tutorial/tutorial-details.asp?tid=467",
+      "title": "Measuring The Facing Direction of a Building",
+      "author": "Joey Yap（页面署名）",
+      "published_at": "2003-04-11",
+      "source_role": "primary_original_author",
+      "reading_status": "body_read",
+      "coverage": "题名、日期、署名、正文四项取向因素及综合判断段；web文本第126–146行。正文后第147行无关药品垃圾链接不采、不循、不作为正文。",
+      "supports": [
+        "D01"
+      ],
+      "verified_point": "作者区分门向与建筑向，并主张综合因素选定建筑向首。",
+      "not_verified": [
+        "没有实际查看该文示意图",
+        "未核成全流派统一规则",
+        "未据此裁定所有高层整栋与单元的关系"
+      ],
+      "source_word_limit": 200,
+      "verbatim_quotation_words": 0,
+      "content_retention": "URL、定位与原创短释；无全文或图片"
+    },
+    {
+      "id": "S02",
+      "url": "https://www.joeyyap.com/notes/rfs/Real_Feng_Shui.pdf",
+      "title": "Real Feng Shui",
+      "author_or_publisher": "Joey Yap International Limited（版权页）",
+      "copyright_years": "2014–2016",
+      "source_role": "primary_original_publisher",
+      "reading_status": "selected_text_sections_and_chart_labels_read",
+      "coverage": "PDF零基页7–8/印页8–9：门向与建筑向及测向文字；PDF零基页10–16/印页11–17：六七八运盘与2016、2017年度/月度盘的标题、图例和局部文本。未逐数校验图盘。",
+      "supports": [
+        "D01",
+        "D04"
+      ],
+      "verified_point": "该讲义明确区分门向与屋向，分别列不同运的宅盘及年度/月度图表。",
+      "not_verified": [
+        "未通读整份讲义",
+        "未核全部数字、顺逆、历法交界与宅运认定",
+        "未复制图表布局或排盘算法"
+      ],
+      "source_word_limit": 200,
+      "verbatim_quotation_words": 0,
+      "rights_note": "原件有强版权声明；仅记录定位与必要原创短评，不保存或再制图表。"
+    },
+    {
+      "id": "S03",
+      "url": "https://www.ncc.com.tw/books/goods.php?id=3544",
+      "title": "重編陽宅三要（附：金光斗臨經）商品说明所录张序",
+      "author_or_attribution": "张含章应泰氏序；清赵玉才原著的现代重编本页面；2003年吴国志标点重编",
+      "source_role": "published_transcription_of_primary_historical_text_not_scan_verified",
+      "reading_status": "displayed_transcription_read",
+      "coverage": "书目信息、王序及张序，重点web第93–95行门/主/灶定义及天井取法；不将应验断语当证据",
+      "supports": [
+        "D02"
+      ],
+      "verified_point": "本网页张序转录确有院内高大之房与厨房门的对象定义。",
+      "not_verified": [
+        "未与乾隆刻本或其他版本逐字校对",
+        "网页有OCR/排印疑点，不据其演算",
+        "不能证明全书每处或现代各传承皆采用同一义"
+      ],
+      "source_word_limit": 200,
+      "verbatim_quotation_words": 0,
+      "evidence_grade": "古文段落公开转录已读；古刻影像未校"
+    },
+    {
+      "id": "S04",
+      "url": "https://www.holisticspaces.com/podcast/episode-116-ask-anjie-and-laura",
+      "title": "Episode 116: Ask Anjie and Laura",
+      "authors": [
+        "Anjie Cho",
+        "Laura Morris"
+      ],
+      "source_role": "primary_original_speakers_transcript",
+      "reading_status": "selected_transcript_read_audio_not_listened",
+      "coverage": "文字稿首问第154–165行与末问第219–223行：无法从桌/床看门时用小镜补视野；首问此项发言者为Laura（L）",
+      "supports": [
+        "D03"
+      ],
+      "verified_point": "节目在特定摆位受限条件下建议小镜补见入口，而非无条件禁镜。",
+      "not_verified": [
+        "未实听音频核对逐字稿",
+        "未核实践效果、信心或运势因果",
+        "未把节目中水晶等其他建议纳入本稿"
+      ],
+      "source_word_limit": 200,
+      "verbatim_quotation_words": 0,
+      "content_retention": "只存定位与必要原创短释"
+    },
+    {
+      "id": "S05",
+      "url": "https://howardchoy.wordpress.com/2012/03/06/feng-shui-cures/",
+      "title": "Feng Shui Cures",
+      "author": "Howard Choy",
+      "published_at": "2012-03-06",
+      "source_role": "primary_original_author",
+      "reading_status": "article_body_read",
+      "coverage": "正文第16–42行，重点第23–37行物理/心理/概念层与八卦镜象征；评论不作本稿证据",
+      "supports": [
+        "D03"
+      ],
+      "verified_point": "作者区分实际原因与概念性化煞，明确不把象征镜替代现实成因处理。",
+      "not_verified": [
+        "未验证文中实际工程及效果",
+        "未把墙高等具体示例转成通用施工要求",
+        "未接受其语言学解释为古汉语定论"
+      ],
+      "source_word_limit": 200,
+      "verbatim_quotation_words": 0,
+      "content_retention": "无全文、照片或评论身份保存"
+    },
+    {
+      "id": "S06",
+      "url": "https://www.geomancy.net/forums/topic/17969-is-a-squarish-or-narrow-layout-better-for-an-office-unit-what-key-factors-should-i-consider-does-this-also-apply-to-homes/",
+      "title": "How to apply the Compass School Feng Shui successfully in an office",
+      "author": "Cecil Lee",
+      "published_at": "2023-01-02",
+      "source_role": "primary_original_author_teaching_example",
+      "reading_status": "selected_post_text_read",
+      "coverage": "指定教学帖Steps 1–3，web第474–510行；与现有ROUND2-010同一条，不增加案例数",
+      "supports": [
+        "D05",
+        "D06"
+      ],
+      "verified_point": "作者从可用区域择房，再把个人朝向列为后续可争取条件。",
+      "not_verified": [
+        "未看教学图",
+        "未核年度/运期数值",
+        "未核实施或结果",
+        "作者排除无使用权房间不等于已证明按产权重立宅盘"
+      ],
+      "source_word_limit": 200,
+      "verbatim_quotation_words": 0,
+      "rights_note": "沿用账本强版权提示；只留最少必要原创评论与定位，不存原文图像。"
+    },
+    {
+      "id": "S07",
+      "url": "https://www.geomancy.net/forums/topic/17949-volume-1-of-2-selected-cases-with-real-life-examples-of-ba-zi-feng-shui-eight-house-flying-stars-shapes-forms-water-classics-lots-more-concepts-useful-to-get-into-the-head-of-a-fs-master/",
+      "title": "Selected Cases Volume 1，指定Case Study 9、11、13、15节",
+      "author": "Cecil Lee",
+      "source_role": "primary_original_author",
+      "reading_status": "selected_text_sections_read",
+      "coverage": "Case 9第576–600行（2020-04-10）；另定位读Case 11第670–692行、Case 13第762–766行、Case 15第878–882行。只使用Case 9方案顺序与Case 15盘层标题作正向证据，未提取图中布局。",
+      "supports": [
+        "D04",
+        "D06"
+      ],
+      "verified_point": "作者把娱乐座位个人朝向视为可争取条件并关心入口通路；另有二十年/年度/月度合参的明确标题。",
+      "not_verified": [
+        "未看图或逐图盘核数",
+        "Case 11的用镜吉凶未采用",
+        "Case 13只核作者称缺角，未核几何边界与阈值，未用来确认实际缺角",
+        "未扩大现有ROUND2-012案例计数"
+      ],
+      "source_word_limit": 200,
+      "verbatim_quotation_words": 0,
+      "rights_note": "只保留必要原创短评、短词及定位，不复刻作者图表或长文。"
+    },
+    {
+      "id": "S08",
+      "url": "https://www.fabiopetrella.it/en/a-feng-shui-harmonization-of-an-irregular-shaped-flat/",
+      "title": "A Feng Shui Harmonization of an Irregular Shaped Flat",
+      "author": "Fabio Petrella",
+      "source_role": "primary_original_author",
+      "reading_status": "limited_body_available",
+      "coverage": "本轮web可取正文第39–45行：题名、同宅卧室/客厅两处讨论引语、形状总体意见；第45行以后的分节正文未完整取得。",
+      "supports": [
+        "D05_source_limit"
+      ],
+      "verified_point": "仅核该作者文章确以不规则同宅为题，不据此推导缺角面积标准。",
+      "not_verified": [
+        "本轮未重新取得卧室/客厅完整正文",
+        "未看任何图像",
+        "既有ED-001细节不升级为本轮原文重核",
+        "没有统一缺角阈值或比例算法"
+      ],
+      "source_word_limit": 200,
+      "verbatim_quotation_words": 0
+    }
+  ],
+  "not_adopted_or_failed_checks": [
+    {
+      "url": "https://home.joeyyap.com/article/flying-star-feng-shui/",
+      "status": "body_read_not_adopted_as_main_evidence",
+      "reason": "署名Team Joey Yap而非Joey本人；有跨体系强断语。本稿用历史署名文章与原站讲义支撑有限的取向/盘层事实，不采此页人生因果。"
+    },
+    {
+      "url": "https://www.astro-fengshui.com/feng-shui.html",
+      "status": "index_only",
+      "reason": "只取得入口，未从该页核到指定镜或缺角原文；不作为方法证据。"
+    },
+    {
+      "url": "https://www.geocities.ws/fengshui_yu/Fengshui018.htm",
+      "status": "search_result_only_not_used",
+      "reason": "Joseph Yu课程转载/镜像来源，未核授权与原站版本。"
+    },
+    {
+      "url": "https://changxianyi.com/guji/yangzhai-sanyao/",
+      "status": "fetch_timeout",
+      "reason": "未核刻本，不使用其内容。"
+    },
+    {
+      "url": "https://www.joeyyap.com/askjoey/askjoey-details.asp?aid=1805",
+      "status": "fetch_failed_possible_wrong_path",
+      "reason": "未取得正文；不能把他人转告的答者/高层定向内容当作本轮已核。"
+    },
+    {
+      "url": "https://www.joeyyap.com/askjoey/askjoey-details.asp?aid=3898",
+      "status": "fetch_failed_possible_wrong_path",
+      "reason": "未取得正文；未纳入证据。"
+    },
+    {
+      "url": "https://www.joeyyap.com/askjoey/askjoey-details.asp?aid=2950",
+      "status": "fetch_failed_possible_wrong_path",
+      "reason": "未取得正文；未纳入证据。"
+    }
+  ],
+  "overall_limits": [
+    "以原作者文章、节目文字稿与原站讲义为主；古书只读公开转录，未完成古刻校勘。",
+    "D01、D03、D04、D06有直接公开原作者/原出版者文字可复核；D02的版本差异与D05的边界分法保留未核范围。",
+    "表中的现实方案优先级与暂缓条件是本项目综合工作约定，不声称所有传统门派一致。",
+    "未核作者咨询对象身份、实施、回访、因果或成功率，不据此进行人生/健康/财务预测。",
+    "不添加命卦、飞星、缺角阈值等数字算法，不把传统预测当作实证科学。"
+  ]
+}

@@ -1,0 +1,401 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-27",
+  "purpose": "把网上已有记载按来源和场景接入 skill 的按需查阅资料池；不是重新分析照片，也不是建立/宣称已读万例数据库。",
+  "counting_policy": [
+    "目录主题数、回复帖数、访问数、课程节数及独立案例数分别记录。",
+    "栏目名含案例/个案，仅能证明其组织目的；未逐项核对时主题总数不记成独立案例总数。",
+    "同宅续帖、回访、不同流派复盘、转载和镜像不因不同 URL 自动成为新案例。",
+    "目录已核验、正文已读、图片已查看分别记录；网页失败保留检索入口，不绕过登录、付费、验证码或访问限制。",
+    "不汇总异质口径凑到万例；所有来源均可按需引用，只有读到的具体正文才支持具体结论。"
+  ],
+  "conclusion": {
+    "recommended": "将以下专门实例来源与混合检索入口一起纳入来源索引；以场景检索后少量阅读的方式使用。",
+    "verified_10000_independent_consultation_cases": false,
+    "verified_claim": "找到数千主题规模的专门实例档案及过万主题的混合资料入口；不能把它们统称为已读/去重的万例咨询案例库。",
+    "local_fulltext_or_images_copied": false,
+    "new_photo_analyses_created": 0
+  },
+  "sources": [
+    {
+      "id": "FSARCH-168-43",
+      "group": "专门实例来源",
+      "title": "天機易學論壇（風水168）· 陰陽宅风水实例",
+      "directory_url": "https://fengshui-168.net/forum-43-209.html",
+      "canonical_entry": "https://fengshui-168.net/forum-43-1.html",
+      "evidence_level": "目录搜索缓存已核验；抽样题名已读；未读抽样全文/未查看附件图片",
+      "access_status": "搜索缓存可读；直接打开所试目录返回 502 或不可访问",
+      "scale": {
+        "unit": "forum_topics",
+        "observed": 4266,
+        "alternate_snapshots": [
+          4260,
+          4265
+        ],
+        "page_count_shown": 86,
+        "independent_cases": null,
+        "note": "这些数字来自不同抓取时间；4266 是本轮较新缓存，不承诺实时。"
+      },
+      "category_counts": {
+        "陽宅勘驗": 640,
+        "陰宅勘驗": 329,
+        "店面商舖": 200,
+        "案例擂台": 180,
+        "立向佈局": 270,
+        "調理化解": 32,
+        "名墓考證": 532
+      },
+      "case_evidence": "有明确实例版名和勘验/商铺分类；目录可见外煞与内局调整的实例题名。",
+      "non_case_evidence": "同目录也含形巒理論、風水雜談及站务置顶；并有同日同题「城市商品房断吉凶」分别列为阴/阳宅，不能直接按主题去重。",
+      "suitable_for_skill": true,
+      "use_for": [
+        "阳宅内外局的传统论述",
+        "店铺/办公室入口与布局比较",
+        "名墓与宗祠的历史形势类比"
+      ],
+      "search_queries": [
+        "site:fengshui-168.net \"陽宅勘驗\" \"外煞\"",
+        "site:fengshui-168.net \"店面商舖\" \"入口\"",
+        "site:fengshui-168.net \"办公室\" \"实例\""
+      ],
+      "limits": "含术数预测、疾病/财富归因与收费/回帖后可见内容；只引用公开可读部分，采用事实观察与作者传统解释分层。"
+    },
+    {
+      "id": "FSARCH-72JU-YANG",
+      "group": "专门实例来源",
+      "title": "超良周易风水论坛·阳宅案例",
+      "directory_url": "https://www.72ju.com/forum-132-1.html",
+      "evidence_url": "https://www.72ju.com/",
+      "evidence_level": "首页分区名及主题统计已读；相关题名已读；未读抽样全文/未查看图片",
+      "access_status": "首页可读；分区链接在本工具返回 cache miss",
+      "scale": {
+        "unit": "forum_topics",
+        "observed": 370,
+        "posts_shown": 4516,
+        "independent_cases": null,
+        "note": "帖子数含回复。"
+      },
+      "case_evidence": "首页将阳宅案例单列，与理气交流、风水文章分开。",
+      "non_case_evidence": "仅核验目录，未逐帖确认个案完整性。",
+      "suitable_for_skill": true,
+      "use_for": [
+        "住宅格局",
+        "楼层与同户型比较",
+        "路冲和外部环境的分歧例"
+      ],
+      "search_queries": [
+        "site:72ju.com \"阳宅案例\" \"户型\"",
+        "site:72ju.com \"路冲\" \"案例\"",
+        "site:72ju.com \"办公室\""
+      ],
+      "limits": "按主题取原帖阅读；论坛观点和作者自述反馈不构成效果证实。"
+    },
+    {
+      "id": "FSARCH-72JU-YIN",
+      "group": "专门实例来源",
+      "title": "超良周易风水论坛·阴宅案例",
+      "directory_url": "https://www.72ju.com/forum-5-1.html",
+      "evidence_url": "https://www.72ju.com/",
+      "evidence_level": "首页分区名及主题统计已读；未读个案全文/未查看图片",
+      "access_status": "首页可读；分区链接返回 cache miss",
+      "scale": {
+        "unit": "forum_topics",
+        "observed": 877,
+        "posts_display": "1万",
+        "independent_cases": null,
+        "note": "1万是含回复的帖子显示，不是万例。"
+      },
+      "case_evidence": "独立命名为阴宅案例；与一般学习资料分开。",
+      "non_case_evidence": "未逐项核验独立性、现场与回访材料。",
+      "suitable_for_skill": true,
+      "use_for": [
+        "阴宅传统形势",
+        "墓地、宗祠、地形关系"
+      ],
+      "search_queries": [
+        "site:72ju.com \"阴宅案例\" \"水\"",
+        "site:72ju.com \"宗祠\" \"风水\""
+      ],
+      "limits": "尺度与现代室内照片不同；不可直接套成家具规则。"
+    },
+    {
+      "id": "FSARCH-KANYU-14",
+      "group": "专门实例来源",
+      "title": "杨公风水专业论坛·杨公风水案例臻萃",
+      "directory_url": "https://bbs.kanyuw.com/forum.php?fid=14&filter=hot&mod=forumdisplay",
+      "evidence_urls": [
+        "https://bbs.kanyuw.com/",
+        "https://bbs.kanyuw.com/forum.php?fid=14&filter=lastpost&mobile=no&mod=forumdisplay&orderby=lastpost&page=28"
+      ],
+      "evidence_level": "专版目录搜索缓存已核验；抽样题名已读；未读抽样全文/未查看图片",
+      "access_status": "搜索缓存可读；直接目录请求 cache miss/不可访问",
+      "scale": {
+        "unit": "forum_topics",
+        "observed": 709,
+        "posts_display": "1万",
+        "independent_cases": null
+      },
+      "case_evidence": "专门案例版块，目录题名有具体时间、地区及工厂/小区套房/迁葬对象。",
+      "non_case_evidence": "同目录出现同地区工厂的初勘和断验、木材厂布局与次年重访，必须作为可能同案关联材料；另有授课活动。",
+      "suitable_for_skill": true,
+      "use_for": [
+        "工厂与商业整体布局",
+        "套房装修前布局",
+        "同案初勘与回访的材料分层"
+      ],
+      "search_queries": [
+        "site:bbs.kanyuw.com \"工厂\" \"风水实例\"",
+        "site:bbs.kanyuw.com \"小区套房\" \"布局\"",
+        "site:bbs.kanyuw.com \"重返\" \"风水\""
+      ],
+      "limits": "作者实践记录，可供传统取法比较；预测及所谓应验不能当成经独立验证的因果。"
+    },
+    {
+      "id": "FSARCH-SHUSQUARE-64",
+      "group": "专门实例来源",
+      "title": "術數縱橫·真實個案",
+      "directory_url": "https://forum.shusquare.com/forum.php?fid=64&filter=heat&mobile=2&mod=forumdisplay&orderby=heats",
+      "evidence_url": "https://forum.shusquare.com/forum.php?fid=64&filter=heat&mobile=2&mod=forumdisplay&orderby=heats&page=3",
+      "evidence_level": "目录搜索缓存已核验；两页抽样题名已读；未读抽样全文/未查看图片",
+      "access_status": "搜索缓存可读；无筛选分区链接 cache miss",
+      "scale": {
+        "unit": "forum_topics",
+        "observed": 537,
+        "page_count_shown": 18,
+        "independent_cases": null
+      },
+      "case_evidence": "位于龙穴砂水、阴阳二宅大类；多条以个案序号及具体对象命名。",
+      "non_case_evidence": "还混有画平面图方法、求助问句、随拍及一般评论；相似题名可能为重复求助。",
+      "suitable_for_skill": true,
+      "use_for": [
+        "阳宅与阴宅对照",
+        "办公室、餐厅、门的问答",
+        "个案材料缺项的教学"
+      ],
+      "search_queries": [
+        "site:forum.shusquare.com \"真實個案\" \"办公室\"",
+        "site:forum.shusquare.com \"真實個案\" \"西餐厅\"",
+        "site:forum.shusquare.com \"真實個案\" \"开哪个门\""
+      ],
+      "limits": "版名不是独立真实性认证；原帖作者身份、图像与反馈须逐次判断。"
+    },
+    {
+      "id": "FSARCH-SHUSQUARE-11",
+      "group": "专门实例来源",
+      "title": "術數縱橫·陽宅個案",
+      "directory_url": "https://forum.shusquare.com/forum.php?fid=11&mobile=no&mod=forumdisplay&page=1",
+      "evidence_level": "目录直接打开已读；抽样题名已读；未读抽样全文/未查看图片",
+      "access_status": "目录可读；所试单帖打开失败",
+      "scale": {
+        "unit": "forum_topics",
+        "observed": 726,
+        "page_count_shown": 25,
+        "subcategory": {
+          "實例探討": 93
+        },
+        "independent_cases": null
+      },
+      "case_evidence": "专门阳宅个案栏目，另有实例探讨分类。",
+      "non_case_evidence": "目录同时列一般风水文章、求教、广告/免费检测及全站置顶；不能按726或93直接称案例。",
+      "suitable_for_skill": true,
+      "use_for": [
+        "沙发布置",
+        "平面图分析",
+        "门位与座向争议",
+        "旅馆和小区住宅"
+      ],
+      "search_queries": [
+        "site:forum.shusquare.com \"客厅沙发\"",
+        "site:forum.shusquare.com \"平面圖風水預測分析\"",
+        "site:forum.shusquare.com \"陽宅個案\" \"大門\""
+      ],
+      "limits": "适合查传统问答与具体场景，不提供总体有效性统计。"
+    },
+    {
+      "id": "FSARCH-GEOMANCY-CASES",
+      "group": "专门实例来源",
+      "title": "Geomancy.Net · Case Studies",
+      "directory_url": "https://www.geomancy.net/content/feng-shui-resources/fun-with-feng-shui/case-studies",
+      "alternate_url": "https://online.geomancy.net/resources/theories/fs-cases.htm",
+      "evidence_level": "正文已读；未查看图片",
+      "access_status": "公开正文可读",
+      "scale": {
+        "unit": "single_curated_qa_page",
+        "observed": 1,
+        "independent_cases": null,
+        "note": "页面点击数约29万不是案例数；未给整站独立案例总数。"
+      },
+      "case_evidence": "作者明确说明挑选有助读者的问题作为case studies，并不展示姓名和邮箱。",
+      "non_case_evidence": "同页包含理论问题和实际住户来问；不能一律算现场勘验。",
+      "suitable_for_skill": true,
+      "use_for": [
+        "斜屋顶与床",
+        "入门视线与壁炉",
+        "门窗及屏风",
+        "流派区分"
+      ],
+      "search_queries": [
+        "site:geomancy.net/content/feng-shui-resources/fun-with-feng-shui/case-studies \"sloping ceiling\"",
+        "site:geomancy.net \"fireplace\" \"front door\"",
+        "site:geomancy.net \"case study\" \"mirror\""
+      ],
+      "limits": "可用于说明作者如何区分具体格局和通用说法；结构改造建议仍须现实核实。"
+    },
+    {
+      "id": "FSARCH-OK-MIXED",
+      "group": "混合检索入口",
+      "title": "龙行天下风水论坛·阴宅风水/阳宅家居",
+      "directory_url": "https://www.ok2009ok.com/thread.php?fid=58",
+      "evidence_urls": [
+        "https://www.ok2009ok.com/",
+        "https://www.ok2009ok.com/thread.php?fid=2"
+      ],
+      "evidence_level": "首页及阳宅目录搜索缓存已读；未读本轮抽样全文/未查看图片",
+      "access_status": "搜索缓存可读；阴宅分区直接请求超时",
+      "scale": {
+        "unit": "forum_topics",
+        "yin_topics": 31279,
+        "all_site_topics": 108699,
+        "independent_cases": null,
+        "note": "前者是阴宅版全类主题；后者是全站主题，均非案例数。"
+      },
+      "case_evidence": "确有实践案例、原创案例、反馈等帖子。",
+      "non_case_evidence": "版块允许风水问题、学术讨论、个人经验和理论；首页是混合交流论坛。",
+      "suitable_for_skill": true,
+      "use_for": [
+        "按题名查住宅/公司搬迁",
+        "阴宅传统形势",
+        "追查作者与回访续帖"
+      ],
+      "search_queries": [
+        "site:ok2009ok.com \"实践案例\" \"阳宅\"",
+        "site:ok2009ok.com \"办公室\" \"布局\"",
+        "site:ok2009ok.com \"公司搬迁\" \"案例\""
+      ],
+      "limits": "适合广泛检索补充；31279不得写成万例已记载独立案例。"
+    },
+    {
+      "id": "FSARCH-GEOMANCY-FORUM",
+      "group": "混合检索入口",
+      "title": "Geomancy.Net Forums / Around Singapore",
+      "directory_url": "https://www.geomancy.net/forums/",
+      "specific_entry": "https://www.geomancy.net/forums/forum/19-around-singapore/",
+      "evidence_level": "论坛首页及分区目录已读；未逐条阅读或查看图片",
+      "access_status": "首页与分区缓存可读",
+      "scale": {
+        "unit": "forum_topics_and_posts",
+        "all_topics_display": "19.4k",
+        "all_posts_display": "60.2k",
+        "around_singapore_topics": 2203,
+        "independent_cases": null,
+        "note": "主题与帖子分开；四版总量和整站量不可相加。"
+      },
+      "case_evidence": "Around Singapore 自述为总平面、户型和照片来源，含具体楼盘与住户问题。",
+      "non_case_evidence": "同一目录也有房地产新闻、购房指南、文化、占算及服务说明。",
+      "suitable_for_skill": true,
+      "use_for": [
+        "高层公寓与组屋",
+        "楼盘外部环境",
+        "房门/镜子/厨房布局",
+        "售楼图和实地材料的区分"
+      ],
+      "search_queries": [
+        "site:geomancy.net/forums \"floor plan\" \"stove\"",
+        "site:geomancy.net/forums \"main door\" \"wall\"",
+        "site:geomancy.net/forums \"office\" \"shape\""
+      ],
+      "limits": "楼盘介绍或预测不自动等于已住后的咨询个案；按楼盘名称防重复。"
+    },
+    {
+      "id": "FSARCH-CARI-288",
+      "group": "混合检索入口",
+      "title": "佳礼资讯网·风水术数",
+      "directory_url": "https://c.cari.com.my/forum.php?fid=288&mod=forumdisplay",
+      "evidence_level": "目录直接打开已读；未读个案全文/未查看图片",
+      "access_status": "公开目录可读",
+      "scale": {
+        "unit": "forum_topics",
+        "observed": 11505,
+        "page_count_shown": 384,
+        "independent_cases": null,
+        "note": "该快照与先前11508不同；用核验日期和口径，不当实时常数。"
+      },
+      "case_evidence": "可定位马来西亚中文风水问答。",
+      "non_case_evidence": "当前页大量财运占测、紫微、生肖运程与起卦教材；不是专门建筑风水案例栏目。",
+      "suitable_for_skill": true,
+      "use_for": [
+        "马来西亚住宅及店铺语境",
+        "地区用语检索"
+      ],
+      "search_queries": [
+        "site:c.cari.com.my \"风水\" \"屋子\" \"格局\"",
+        "site:c.cari.com.my \"风水\" \"店面\" \"图\"",
+        "site:c.cari.com.my \"风水\" \"厨房\""
+      ],
+      "limits": "11505主题不能计为11505个已发生风水案例；先筛建筑对象与具体材料。"
+    },
+    {
+      "id": "FSARCH-SMTH-OPENICHING",
+      "group": "混合检索入口",
+      "title": "水木社区·OpenIching 的公开风水文章",
+      "directory_url": "https://att.newsmth.net/nForum/article/OpenIching/456640?p=1",
+      "evidence_level": "搜索返回的文章正文已读；直接正文请求超时；未查看户型图片",
+      "access_status": "部分公开文章经搜索缓存可读；未核验全版总量",
+      "scale": {
+        "unit": "not_established",
+        "observed": null,
+        "independent_cases": null
+      },
+      "case_evidence": "抽样文章把八宅财位理论与一个坐北朝南住宅提问放在同文。",
+      "non_case_evidence": "其主题是易学开放讨论，抽样正文亦有理论讲解和读者质疑，并非个案专版。",
+      "suitable_for_skill": true,
+      "use_for": [
+        "八宅取法分歧",
+        "宅向/门向的争论",
+        "读者问答与理论段落分离"
+      ],
+      "search_queries": [
+        "site:newsmth.net/nForum/article/OpenIching \"风水\" \"户型\"",
+        "site:newsmth.net/nForum/article/OpenIching \"风水\" \"案例\""
+      ],
+      "limits": "只能作为补充检索入口；本轮无全版数量和独立案例数。"
+    }
+  ],
+  "operational_route": [
+    {
+      "scene": "室内照片/户型：床、沙发、门窗、镜子",
+      "primary": [
+        "FSARCH-GEOMANCY-CASES",
+        "FSARCH-SHUSQUARE-11",
+        "FSARCH-72JU-YANG"
+      ],
+      "method": "先用实际可见对象关键词检索，读少量相关原文，核对同类空间与差异；不得把题名当正文结论。"
+    },
+    {
+      "scene": "店铺/办公室/工厂",
+      "primary": [
+        "FSARCH-168-43",
+        "FSARCH-KANYU-14",
+        "FSARCH-GEOMANCY-FORUM"
+      ],
+      "method": "区分顾客入口、送货、内部路线；先确认案例对象与当前空间层级相同。"
+    },
+    {
+      "scene": "高层公寓与售楼总平面",
+      "primary": [
+        "FSARCH-GEOMANCY-FORUM",
+        "FSARCH-SHUSQUARE-64"
+      ],
+      "method": "区分未建成售楼材料、实景、作者设想与实际回访。"
+    },
+    {
+      "scene": "阴宅/宗祠/传统山川形势",
+      "primary": [
+        "FSARCH-72JU-YIN",
+        "FSARCH-KANYU-14",
+        "FSARCH-OK-MIXED"
+      ],
+      "method": "仅对相同尺度的山川地形作传统方法比较；现代室内应用明确标现代类比。"
+    }
+  ]
+}

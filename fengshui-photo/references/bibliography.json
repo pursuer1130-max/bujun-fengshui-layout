@@ -1,0 +1,643 @@
+{
+  "title": "风水核心与扩展文献研究目录",
+  "research_date": "2026-10-25",
+  "language": "zh-CN",
+  "scope": "29个书目条目（24古籍/注疏、2目录类书、3现代学术书）及1篇补充论文；本地文本是另一独立维度，不代表全书已读或已校勘。",
+  "method": "优先原文、机构目录、出版社；搜索索引核对与直接打开区分标注。未联网核实的具体条文不进入 skill 规则。",
+  "verification_legend": {
+    "原文抽查": "已看到少量正文，不等于通读、校勘或验证术效。",
+    "书目核对": "确认书名、题署、版本或目录入口；不能声称已读正文。",
+    "待核验": "仅作候选线索，不可作为规则依据。"
+  },
+  "entries": [
+    {
+      "id": "FS001",
+      "title": "葬书（四库全书本）",
+      "author": "旧题晋郭璞；《四库提要》指出传本至宋始见，后经蔡元定、吴澄等删定，不能径称晋人亲笔。",
+      "category": "形势／相墓／文献基础",
+      "verification": "原文抽查（非通读）",
+      "checked": "已读提要与内篇开头；未校影印底本。",
+      "priority": "历史概念；不可把相墓断语直接套入室内照片。",
+      "urls": [
+        "https://zh.wikisource.org/zh/葬書_(四庫全書本)",
+        "https://catalog.digitalarchives.tw/item/00/61/16/bf.html"
+      ],
+      "rights": "ancient",
+      "rights_note": "古代著作与现代校注/转录/扫描权利分开；本地文本范围与许可另见classics清单。",
+      "checked_date": "2026-10-25",
+      "research_downloaded": false,
+      "local_texts": [
+        {
+          "file": "classics/03-zangshu-siku.txt",
+          "source_title": "葬書 (四庫全書本)",
+          "scope": "该固定修订网页的正文（非保证全书足本）",
+          "revision_url": "https://zh.wikisource.org/w/index.php?title=%E8%91%AC%E6%9B%B8_(%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC)&oldid=626972"
+        }
+      ],
+      "local_collection_note": "有下列固定网页转录，非足本/校勘保证，亦不等于研究员已通读。"
+    },
+    {
+      "id": "FS002",
+      "title": "宅经（又题黄帝宅经）",
+      "author": "托名黄帝；本页提要已辨托名，不宜写成黄帝实著。",
+      "category": "阳宅／方位／修造",
+      "verification": "原文提要与目录核对",
+      "checked": "已读首页提要，确认卷上、卷下入口；未通读正文。",
+      "priority": "阳宅文献脉络；方位法需要实测朝向。",
+      "urls": [
+        "https://zh.wikisource.org/wiki/宅經"
+      ],
+      "rights": "ancient",
+      "rights_note": "古代著作与现代校注/转录/扫描权利分开；本地文本范围与许可另见classics清单。",
+      "checked_date": "2026-10-25",
+      "research_downloaded": false,
+      "local_texts": [
+        {
+          "file": "classics/01-zhaijing-juan-shang.txt",
+          "source_title": "宅經 (四庫全書本)/卷上",
+          "scope": "该固定修订网页的正文（非保证全书足本）",
+          "revision_url": "https://zh.wikisource.org/w/index.php?title=%E5%AE%85%E7%B6%93_(%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC)/%E5%8D%B7%E4%B8%8A&oldid=626943"
+        },
+        {
+          "file": "classics/02-zhaijing-juan-xia.txt",
+          "source_title": "宅經 (四庫全書本)/卷下",
+          "scope": "该固定修订网页的正文（非保证全书足本）",
+          "revision_url": "https://zh.wikisource.org/w/index.php?title=%E5%AE%85%E7%B6%93_(%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC)/%E5%8D%B7%E4%B8%8B&oldid=626945"
+        }
+      ],
+      "local_collection_note": "有下列固定网页转录，非足本/校勘保证，亦不等于研究员已通读。"
+    },
+    {
+      "id": "FS003",
+      "title": "撼龙经",
+      "author": "旧题唐杨筠松；现存归属有疑。",
+      "category": "形势／山龙",
+      "verification": "原文抽查（非通读）",
+      "checked": "已读提要及开篇山川形势歌诀。",
+      "priority": "适合广角外环境、地形图的术语背景；单张室内图不能识别来龙。",
+      "urls": [
+        "https://zh.wikisource.org/wiki/撼龍經"
+      ],
+      "rights": "ancient",
+      "rights_note": "古代著作与现代校注/转录/扫描权利分开；本地文本范围与许可另见classics清单。",
+      "checked_date": "2026-10-25",
+      "research_downloaded": false,
+      "local_texts": [
+        {
+          "file": "classics/04-hanlongjing.txt",
+          "source_title": "撼龍經",
+          "scope": "该固定修订网页的正文（非保证全书足本）",
+          "revision_url": "https://zh.wikisource.org/w/index.php?title=%E6%92%BC%E9%BE%8D%E7%B6%93&oldid=2646322"
+        }
+      ],
+      "local_collection_note": "有下列固定网页转录，非足本/校勘保证，亦不等于研究员已通读。"
+    },
+    {
+      "id": "FS004",
+      "title": "疑龙经",
+      "author": "旧题杨筠松；归属有疑，与《撼龙经》相关而非同一本。",
+      "category": "形势／寻龙／水口",
+      "verification": "书目核对",
+      "checked": "已核对分篇目录；未读各篇正文。",
+      "priority": "外环境扩展。",
+      "urls": [
+        "https://zh.wikisource.org/wiki/撼龍經/疑龍經"
+      ],
+      "rights": "ancient",
+      "rights_note": "古代著作与现代校注/转录/扫描权利分开；本地文本范围与许可另见classics清单。",
+      "checked_date": "2026-10-25",
+      "research_downloaded": false,
+      "local_texts": [
+        {
+          "file": "classics/05-yilongjing-shang.txt",
+          "source_title": "撼龍經/疑龍經/上篇",
+          "scope": "该固定修订网页的正文（非保证全书足本）",
+          "revision_url": "https://zh.wikisource.org/w/index.php?title=%E6%92%BC%E9%BE%8D%E7%B6%93/%E7%96%91%E9%BE%8D%E7%B6%93/%E4%B8%8A%E7%AF%87&oldid=1160959"
+        },
+        {
+          "file": "classics/06-yilongjing-zhong.txt",
+          "source_title": "撼龍經/疑龍經/中篇",
+          "scope": "该固定修订网页的正文（非保证全书足本）",
+          "revision_url": "https://zh.wikisource.org/w/index.php?title=%E6%92%BC%E9%BE%8D%E7%B6%93/%E7%96%91%E9%BE%8D%E7%B6%93/%E4%B8%AD%E7%AF%87&oldid=1161707"
+        },
+        {
+          "file": "classics/07-yilongjing-xia.txt",
+          "source_title": "撼龍經/疑龍經/下篇",
+          "scope": "该固定修订网页的正文（非保证全书足本）",
+          "revision_url": "https://zh.wikisource.org/w/index.php?title=%E6%92%BC%E9%BE%8D%E7%B6%93/%E7%96%91%E9%BE%8D%E7%B6%93/%E4%B8%8B%E7%AF%87&oldid=7904513"
+        }
+      ],
+      "local_collection_note": "有下列固定网页转录，非足本/校勘保证，亦不等于研究员已通读。"
+    },
+    {
+      "id": "FS005",
+      "title": "葬法倒杖",
+      "author": "旧题杨筠松；归属有疑。",
+      "category": "形势／相墓／穴法",
+      "verification": "书目核对",
+      "checked": "已核对目录含认太极、分两仪、倒杖十二法等；未读全文。",
+      "priority": "相墓方法史；住宅布置不默认使用。",
+      "urls": [
+        "https://zh.wikisource.org/wiki/撼龍經/葬法倒杖"
+      ],
+      "rights": "ancient",
+      "rights_note": "古代著作与现代校注/转录/扫描权利分开；本地文本范围与许可另见classics清单。",
+      "checked_date": "2026-10-25",
+      "research_downloaded": false,
+      "local_texts": [],
+      "local_collection_note": "本包未保存此书正文；书目/抽查状态见verification。"
+    },
+    {
+      "id": "FS006",
+      "title": "青囊经（上中下卷传本）",
+      "author": "常托名黄石公；本次页面未建立可靠作者与成书年代，不等同《晋书》所记《青囊中书》。",
+      "category": "理气／阴阳五行／术语",
+      "verification": "原文抽查（非通读）",
+      "checked": "已读化始、化机段落；作者、版本待进一步考订。",
+      "priority": "仅作观念背景，不能据照片凭空排盘。",
+      "urls": [
+        "https://zh.wikisource.org/zh/青囊經",
+        "https://daxiculture.tycg.gov.tw/search/detail/F20230510059"
+      ],
+      "rights": "ancient",
+      "rights_note": "古代著作与现代校注/转录/扫描权利分开；本地文本范围与许可另见classics清单。",
+      "checked_date": "2026-10-25",
+      "research_downloaded": false,
+      "local_texts": [
+        {
+          "file": "classics/08-qingnangjing.txt",
+          "source_title": "青囊經",
+          "scope": "该固定修订网页的正文（非保证全书足本）",
+          "revision_url": "https://zh.wikisource.org/w/index.php?title=%E9%9D%92%E5%9B%8A%E7%B6%93&oldid=2531400"
+        }
+      ],
+      "local_collection_note": "有下列固定网页转录，非足本/校勘保证，亦不等于研究员已通读。"
+    },
+    {
+      "id": "FS007",
+      "title": "青囊奥语",
+      "author": "旧题唐杨筠松；归属不作定论。",
+      "category": "理气／二十四山",
+      "verification": "原文抽查（非通读）",
+      "checked": "已抽查二十四山及明堂相关歌诀；未核影印。",
+      "priority": "补充学派术语。",
+      "urls": [
+        "https://zh.wikisource.org/wiki/青囊奧語",
+        "https://ctext.org/wiki.pl?if=en&res=932998"
+      ],
+      "rights": "ancient",
+      "rights_note": "古代著作与现代校注/转录/扫描权利分开；本地文本范围与许可另见classics清单。",
+      "checked_date": "2026-10-25",
+      "research_downloaded": false,
+      "local_texts": [
+        {
+          "file": "classics/09-qingnang-siku.txt",
+          "source_title": "青囊 (四庫全書本)",
+          "scope": "该固定修订网页的正文（非保证全书足本）",
+          "revision_url": "https://zh.wikisource.org/w/index.php?title=%E9%9D%92%E5%9B%8A_(%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC)&oldid=626995"
+        }
+      ],
+      "local_collection_note": "有下列固定网页转录，非足本/校勘保证，亦不等于研究员已通读。"
+    },
+    {
+      "id": "FS008",
+      "title": "青囊序",
+      "author": "旧题唐曾文辿；从传统题署引用，不把师承传说视为史实。",
+      "category": "理气／阴阳顺逆",
+      "verification": "原文抽查（非通读）",
+      "checked": "已读前段及二十四山相关句；未全文校勘。",
+      "priority": "补充学派术语。",
+      "urls": [
+        "https://zh.wikisource.org/wiki/青囊序"
+      ],
+      "rights": "ancient",
+      "rights_note": "古代著作与现代校注/转录/扫描权利分开；本地文本范围与许可另见classics清单。",
+      "checked_date": "2026-10-25",
+      "research_downloaded": false,
+      "local_texts": [
+        {
+          "file": "classics/09-qingnang-siku.txt",
+          "source_title": "青囊 (四庫全書本)",
+          "scope": "该固定修订网页的正文（非保证全书足本）",
+          "revision_url": "https://zh.wikisource.org/w/index.php?title=%E9%9D%92%E5%9B%8A_(%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC)&oldid=626995"
+        }
+      ],
+      "local_collection_note": "有下列固定网页转录，非足本/校勘保证，亦不等于研究员已通读。"
+    },
+    {
+      "id": "FS009",
+      "title": "天玉经内传及外编",
+      "author": "旧题唐杨筠松；归属存疑。",
+      "category": "理气／卦例",
+      "verification": "书目核对",
+      "checked": "已核对原文入口与《四库》目录；未通读。维基文库 URL 路径误作天王经，页面标题现显示天玉经。",
+      "priority": "有方位与流派要求；不能一张照片计算。",
+      "urls": [
+        "https://zh.wikisource.org/wiki/天王經_(四庫全書本)/全覽"
+      ],
+      "rights": "ancient",
+      "rights_note": "古代著作与现代校注/转录/扫描权利分开；本地文本范围与许可另见classics清单。",
+      "checked_date": "2026-10-25",
+      "research_downloaded": false,
+      "local_texts": [],
+      "local_collection_note": "本包未保存此书正文；书目/抽查状态见verification。"
+    },
+    {
+      "id": "FS010",
+      "title": "灵城精义",
+      "author": "旧题南唐何溥、注题刘基；本页提要明确质疑时代和作者。",
+      "category": "形势／理气",
+      "verification": "原文提要与目录核对",
+      "checked": "已读提要，确认形气章与理气章；未全文校勘。",
+      "priority": "展示形与理气区分及文献托名问题。",
+      "urls": [
+        "https://zh.wikisource.org/wiki/靈城精義",
+        "https://catalog.digitalarchives.tw/item/00/61/16/c2.html"
+      ],
+      "rights": "ancient",
+      "rights_note": "古代著作与现代校注/转录/扫描权利分开；本地文本范围与许可另见classics清单。",
+      "checked_date": "2026-10-25",
+      "research_downloaded": false,
+      "local_texts": [],
+      "local_collection_note": "本包未保存此书正文；书目/抽查状态见verification。"
+    },
+    {
+      "id": "FS011",
+      "title": "催官篇",
+      "author": "传统题宋赖文俊；《四库》如此著录，生平仍应另考。",
+      "category": "理气／龙穴砂水",
+      "verification": "原文抽查（非通读）",
+      "checked": "已抽查辨龙章开头，并核对二卷著录。",
+      "priority": "仅作传统规则说明；书内疾病、官禄断语不可当现实判断。",
+      "urls": [
+        "https://ctext.org/wiki.pl?chapter=882777&if=en&remap=gb",
+        "https://ci.nii.ac.jp/ncid/BA4746576X"
+      ],
+      "rights": "ancient",
+      "rights_note": "古代著作与现代校注/转录/扫描权利分开；本地文本范围与许可另见classics清单。",
+      "checked_date": "2026-10-25",
+      "research_downloaded": false,
+      "local_texts": [],
+      "local_collection_note": "本包未保存此书正文；书目/抽查状态见verification。"
+    },
+    {
+      "id": "FS012",
+      "title": "发微论（四库全书本）",
+      "author": "多本题宋蔡元定；提要同时记录蔡牧堂／蔡发归属问题。",
+      "category": "形势／理论",
+      "verification": "原文提要核对",
+      "checked": "已读提要，未通读十四论正文。",
+      "priority": "观察聚散、向背等的文化术语背景。",
+      "urls": [
+        "https://zh.wikisource.org/zh-hant/發微論_(四庫全書本)",
+        "https://ctext.org/wiki.pl?if=gb&res=547722"
+      ],
+      "rights": "ancient",
+      "rights_note": "古代著作与现代校注/转录/扫描权利分开；本地文本范围与许可另见classics清单。",
+      "checked_date": "2026-10-25",
+      "research_downloaded": false,
+      "local_texts": [],
+      "local_collection_note": "本包未保存此书正文；书目/抽查状态见verification。"
+    },
+    {
+      "id": "FS013",
+      "title": "阳宅十书",
+      "author": "传统归明王君荣编纂；不同版本可能有异名、卷次。",
+      "category": "阳宅／内形／外形",
+      "verification": "书目与原文索引核对",
+      "checked": "已核对 ctext 馆藏和 OCR 原文索引；未逐图核影印。",
+      "priority": "图片阳宅分析的优先扩充来源；图中文字与规则仍须逐条校核。",
+      "urls": [
+        "https://ctext.org/library.pl?if=en&res=90995",
+        "https://ctext.org/wiki.pl?chapter=242309&if=en&remap=gb",
+        "https://bp.ntu.edu.tw/001/Upload/1352/ckfile/09c7cd46-303f-407a-bde5-c1f09df02b1d.pdf"
+      ],
+      "rights": "ancient",
+      "rights_note": "古代著作与现代校注/转录/扫描权利分开；本地文本范围与许可另见classics清单。",
+      "checked_date": "2026-10-25",
+      "research_downloaded": false,
+      "local_texts": [],
+      "local_collection_note": "本包未保存此书正文；书目/抽查状态见verification。"
+    },
+    {
+      "id": "FS014",
+      "title": "阳宅三要（含绘图传本）",
+      "author": "通行归清赵九峰；本次 CiNii 传本记录未列作者，不能据该目录独证归属。",
+      "category": "阳宅／门主灶／八宅",
+      "verification": "书目核对",
+      "checked": "已打开 CiNii 馆藏条目，确认题名与版本记录；未读原书。",
+      "priority": "适合门、主要居室、厨房的关系，但需要全屋平面与实测方位。",
+      "urls": [
+        "https://ci.nii.ac.jp/ncid/BB02786553",
+        "https://tcmb.culture.tw/zh-tw/detail?id=139000259195&indexCode=MOCCOLLECTIONS"
+      ],
+      "rights": "ancient",
+      "rights_note": "古代著作与现代校注/转录/扫描权利分开；本地文本范围与许可另见classics清单。",
+      "checked_date": "2026-10-25",
+      "research_downloaded": false,
+      "local_texts": [],
+      "local_collection_note": "本包未保存此书正文；书目/抽查状态见verification。"
+    },
+    {
+      "id": "FS015",
+      "title": "八宅明镜",
+      "author": "传统常题箬冠道人；本次机构目录未列作者，具体题署待核。",
+      "category": "阳宅／八宅／命卦",
+      "verification": "机构书目核对（搜索索引）",
+      "checked": "国家图书馆联合目录可见清光绪三年刻本、二卷；未读原文。",
+      "priority": "理气扩展；命卦法如需个人资料须另行取得，不能从人像推测。",
+      "urls": [
+        "https://rbook.ncl.edu.tw/NCLSearch/Search/SearchDetail?HasImage=&SourceID=1&item=b4236a1b041547a6815489aaeaddeaf7fDUzNDUzMQ2.sfvXhL_xh3pvdrBwkYvisusfXhxj1TwE53BGiII3zz4_&page=5411",
+        "https://ci.nii.ac.jp/ncid/BB20232101"
+      ],
+      "rights": "ancient",
+      "rights_note": "古代著作与现代校注/转录/扫描权利分开；本地文本范围与许可另见classics清单。",
+      "checked_date": "2026-10-25",
+      "research_downloaded": false,
+      "local_texts": [],
+      "local_collection_note": "本包未保存此书正文；书目/抽查状态见verification。"
+    },
+    {
+      "id": "FS016",
+      "title": "地理人子须知（人子须知资孝地理心学统宗）",
+      "author": "明徐善继、徐善述。",
+      "category": "形势／图说／综合",
+      "verification": "书目核对",
+      "checked": "核对大学馆藏异名及武藏大学作者学术论文的引用；未读原书。",
+      "priority": "广域山水与传统图式扩展，不能以孤立特写替代现场勘察。",
+      "urls": [
+        "https://libopac.aichi-u.ac.jp/iwjs0012opc/ctlsrh.do?locale=ja&ncid=BB21565813&search_mode=detail&tab_num=0",
+        "https://repository.musashi.ac.jp/dspace/bitstream/11149/1931/1/jinbun49_01_210%2841%29_minakuchi.pdf"
+      ],
+      "rights": "ancient",
+      "rights_note": "古代著作与现代校注/转录/扫描权利分开；本地文本范围与许可另见classics清单。",
+      "checked_date": "2026-10-25",
+      "research_downloaded": false,
+      "local_texts": [],
+      "local_collection_note": "本包未保存此书正文；书目/抽查状态见verification。"
+    },
+    {
+      "id": "FS017",
+      "title": "地理五诀",
+      "author": "机构古籍联合目录题赵廷栋；通行本又题赵九峰／赵玉材，姓名异同宜按具体版本保留。",
+      "category": "龙穴砂水向／理气",
+      "verification": "机构书目核对（搜索索引）",
+      "checked": "核对哈佛燕京藏本的八卷著录；未通读。",
+      "priority": "综合传统概念；无朝向、水口测量时只解释术语。",
+      "urls": [
+        "https://rbook.ncl.edu.tw/NCLSearch/Search/SearchDetail?HasImage=&SourceID=3&item=a44860fa14bb4b9786803454d663d0dcfDkwMzY20.2YYerrKOKzEB2qx62JZWtHI_165O7GVXEALbjDhdk90_&page=80488"
+      ],
+      "rights": "ancient",
+      "rights_note": "古代著作与现代校注/转录/扫描权利分开；本地文本范围与许可另见classics清单。",
+      "checked_date": "2026-10-25",
+      "research_downloaded": false,
+      "local_texts": [],
+      "local_collection_note": "本包未保存此书正文；书目/抽查状态见verification。"
+    },
+    {
+      "id": "FS018",
+      "title": "地理雪心赋句解",
+      "author": "国图书目题唐卜则巍撰、明谢子期注；此为传统题署，未独立证明作者年代。",
+      "category": "形势／图文",
+      "verification": "机构书目核对（搜索索引）",
+      "checked": "核对国图介绍：四卷，明弘治十八年詹氏进贤精舍刊本；未逐图阅读。",
+      "priority": "传统形势图文扩展。",
+      "urls": [
+        "https://isbn.ncl.edu.tw/NEW_ISBNNet/C00_index.php?KeepThis=true&Pfile=2729&TB_iframe=true&height=650&width=900"
+      ],
+      "rights": "ancient",
+      "rights_note": "古代著作与现代校注/转录/扫描权利分开；本地文本范围与许可另见classics清单。",
+      "checked_date": "2026-10-25",
+      "research_downloaded": false,
+      "local_texts": [],
+      "local_collection_note": "本包未保存此书正文；书目/抽查状态见verification。"
+    },
+    {
+      "id": "FS019",
+      "title": "风水问答",
+      "author": "传统题元朱震亨；国图馆藏与现代研究可互证著录。",
+      "category": "论辩／理学与风水",
+      "verification": "机构书目核对（搜索索引）",
+      "checked": "核对一卷明刊本及可浏览影印条目；未逐页读影印。",
+      "priority": "讨论传统学说的内部争辩，防止把风水当统一定论。",
+      "urls": [
+        "https://commons.wikimedia.org/wiki/File:NCL-06515_風水問答.pdf",
+        "https://isbn.ncl.edu.tw/NEW_ISBNNet/C00_index.php?KeepThis=true&Pfile=2729&TB_iframe=true&height=650&width=900"
+      ],
+      "rights": "ancient",
+      "rights_note": "古代著作与现代校注/转录/扫描权利分开；本地文本范围与许可另见classics清单。",
+      "checked_date": "2026-10-25",
+      "research_downloaded": false,
+      "local_texts": [],
+      "local_collection_note": "本包未保存此书正文；书目/抽查状态见verification。"
+    },
+    {
+      "id": "FS020",
+      "title": "重校正地理新书",
+      "author": "宋王洙等撰；金毕屡道校补、张谦附补（国图网页用字）。",
+      "category": "早期官修／阳宅／相墓／目录史",
+      "verification": "机构介绍核对",
+      "checked": "已打开国图珍藏介绍，核对金明昌三年张谦刊本与原文入口；未读全书。",
+      "priority": "早期住宅术数的文献史；不把旧有五姓分类直接套用现代住户。",
+      "urls": [
+        "https://rbook.ncl.edu.tw/NCLSearch/Selection/Details/37",
+        "https://ctext.org/wiki.pl?chapter=592371&if=gb"
+      ],
+      "rights": "ancient",
+      "rights_note": "古代著作与现代校注/转录/扫描权利分开；本地文本范围与许可另见classics清单。",
+      "checked_date": "2026-10-25",
+      "research_downloaded": false,
+      "local_texts": [],
+      "local_collection_note": "本包未保存此书正文；书目/抽查状态见verification。"
+    },
+    {
+      "id": "FS021",
+      "title": "管氏地理指蒙",
+      "author": "托名魏管辂；作者与年代有争议。",
+      "category": "形势／方位／传统地理",
+      "verification": "原文片段与书目核对",
+      "checked": "已抽查《图书集成》所收明堂段与馆藏记录；不是整书通读。",
+      "priority": "外形、明堂等术语来源之一。",
+      "urls": [
+        "https://zh.wikisource.org/zh-hans/欽定古今圖書集成/博物彙編/藝術典/第656卷",
+        "https://ci.nii.ac.jp/ncid/BD02788600",
+        "https://www.litphil.sinica.edu.tw/newsletter/113/113-147-168.pdf"
+      ],
+      "rights": "ancient",
+      "rights_note": "古代著作与现代校注/转录/扫描权利分开；本地文本范围与许可另见classics清单。",
+      "checked_date": "2026-10-25",
+      "research_downloaded": false,
+      "local_texts": [],
+      "local_collection_note": "本包未保存此书正文；书目/抽查状态见verification。"
+    },
+    {
+      "id": "FS022",
+      "title": "秘传水龙经",
+      "author": "清蒋平阶（蒋大鸿）辑订；书内不同篇目来源有别，不统称郭璞原著。",
+      "category": "平洋／水形／理气",
+      "verification": "原文抽查（OCR，未校影印）",
+      "checked": "抽查序与总论的 OCR；页面误字明显，不能直接作精确引文。",
+      "priority": "外部河流、池塘、水口的传统分析背景。",
+      "urls": [
+        "https://ctext.org/wiki.pl?chapter=830238&if=gb",
+        "https://ci.nii.ac.jp/ncid/BB0482798X?l=en"
+      ],
+      "rights": "ancient",
+      "rights_note": "古代著作与现代校注/转录/扫描权利分开；本地文本范围与许可另见classics清单。",
+      "checked_date": "2026-10-25",
+      "research_downloaded": false,
+      "local_texts": [],
+      "local_collection_note": "本包未保存此书正文；书目/抽查状态见verification。"
+    },
+    {
+      "id": "FS023",
+      "title": "难解二十四篇",
+      "author": "国图送存书目题明撰人不详；其他著录有异，不在本次定作者。",
+      "category": "形势／问题论说",
+      "verification": "机构书目核对（搜索索引）",
+      "checked": "核对国图送存目录合刊题名与 Paton 研究书的目录介绍；未读古籍全文。",
+      "priority": "扩展阅读；未核条文不进入决策规则。",
+      "urls": [
+        "https://nclfile.ncl.edu.tw/files/202201/14a17a9b-32cc-4216-8edd-6f776cc373a2.pdf",
+        "https://www.degruyterbrill.com/de/document/isbn/9789004251458/html"
+      ],
+      "rights": "ancient",
+      "rights_note": "古代著作与现代校注/转录/扫描权利分开；本地文本范围与许可另见classics清单。",
+      "checked_date": "2026-10-25",
+      "research_downloaded": false,
+      "local_texts": [],
+      "local_collection_note": "本包未保存此书正文；书目/抽查状态见verification。"
+    },
+    {
+      "id": "FS024",
+      "title": "地理辨正疏",
+      "author": "清张心言疏，承蒋平阶《地理辨正》；二者不可当同一文本。",
+      "category": "玄空／理气／注疏",
+      "verification": "书目与序文抽查",
+      "checked": "核对 ctext OCR 目录、卷首序与 CiNii 题署；未校影印全文。",
+      "priority": "有明确流派与方位数据时再用；保留与八宅方法的差异。",
+      "urls": [
+        "https://ctext.org/wiki.pl?if=en&res=699357",
+        "https://ctext.org/wiki.pl?chapter=71470&if=en",
+        "https://cir.nii.ac.jp/crid/1971149384801051909?lang=ja"
+      ],
+      "rights": "ancient",
+      "rights_note": "古代著作与现代校注/转录/扫描权利分开；本地文本范围与许可另见classics清单。",
+      "checked_date": "2026-10-25",
+      "research_downloaded": false,
+      "local_texts": [],
+      "local_collection_note": "本包未保存此书正文；书目/抽查状态见verification。"
+    },
+    {
+      "id": "FS025",
+      "title": "四库全书总目提要（卷109、111相关条目）",
+      "author": "清永瑢、纪昀等奉敕编纂；为目录提要，不是风水实践手册。",
+      "category": "目录／版本／辨伪",
+      "verification": "提要与目录已读（相关条目抽查）",
+      "checked": "已读相宅相墓相关目录与若干提要；未通读两卷所有术数条目。",
+      "priority": "书名、卷次、作者托名与传本问题的校验入口。四库评价也属于历史观点。",
+      "urls": [
+        "https://zh.wikisource.org/wiki/四庫全書總目提要/卷109",
+        "https://zh.wikisource.org/wiki/四庫全書總目提要/卷111"
+      ],
+      "rights": "ancient",
+      "rights_note": "古代著作与现代校注/转录/扫描权利分开；本地文本范围与许可另见classics清单。",
+      "checked_date": "2026-10-25",
+      "research_downloaded": false,
+      "local_texts": [],
+      "local_collection_note": "本包未保存此书正文；书目/抽查状态见verification。"
+    },
+    {
+      "id": "FS026",
+      "title": "钦定古今图书集成·艺术典·堪舆部",
+      "author": "清陈梦雷等原编、蒋廷锡等奉敕重编的类书系统；收书、节文不等于原刻本。",
+      "category": "类书／资料汇编",
+      "verification": "原文片段与目录核对",
+      "checked": "仅抽查艺术典第656卷及机构论文引文；未检查整个堪舆部。",
+      "priority": "以篇名与卷次查历史材料，需警惕节录及异文。",
+      "urls": [
+        "https://zh.wikisource.org/zh-hans/欽定古今圖書集成/博物彙編/藝術典/第656卷",
+        "https://www.dpm.org.cn/Uploads/File/2019/12/15/u5df5ee1d0fa9f.pdf"
+      ],
+      "rights": "ancient",
+      "rights_note": "古代著作与现代校注/转录/扫描权利分开；本地文本范围与许可另见classics清单。",
+      "checked_date": "2026-10-25",
+      "research_downloaded": false,
+      "local_texts": [],
+      "local_collection_note": "本包未保存此书正文；书目/抽查状态见verification。"
+    },
+    {
+      "id": "FS027",
+      "title": "Five Classics of Fengshui: Chinese Spiritual Geography in Historical and Environmental Perspective",
+      "author": "Michael Paton，Brill，2013。",
+      "category": "现代学术／译注／历史环境",
+      "verification": "出版社书目与内容简介核对",
+      "checked": "已读出版社简介，确认所涉五部典籍；未获取或通读受版权保护的译文。",
+      "priority": "历史视角与古籍校读；现代译注不可整本嵌入 skill。",
+      "urls": [
+        "https://www.degruyterbrill.com/de/document/isbn/9789004251458/html"
+      ],
+      "rights": "modern",
+      "rights_note": "现代作品受版权保护；仅保存书目信息、链接和原创短注，不提供受保护正文或译注。公开预览不等于再分发授权。",
+      "checked_date": "2026-10-25",
+      "research_downloaded": false,
+      "local_texts": [],
+      "local_collection_note": "本包未保存此书正文；书目/抽查状态见verification。"
+    },
+    {
+      "id": "FS028",
+      "title": "An Introduction to Feng Shui",
+      "author": "Ole Bruun，Cambridge University Press，2008。",
+      "category": "现代学术／人类学／民间宗教",
+      "verification": "出版社目录与书目核对",
+      "checked": "已读出版社公开 frontmatter 目录和大学联合目录；未通读正文。",
+      "priority": "说明实践、学派、历史及研究语境。",
+      "urls": [
+        "https://assets.cambridge.org/97805216/82176/frontmatter/9780521682176_frontmatter.pdf",
+        "https://ci.nii.ac.jp/ncid/BA89635742"
+      ],
+      "rights": "modern",
+      "rights_note": "现代作品受版权保护；仅保存书目信息、链接和原创短注，不提供受保护正文或译注。公开预览不等于再分发授权。",
+      "checked_date": "2026-10-25",
+      "research_downloaded": false,
+      "local_texts": [],
+      "local_collection_note": "本包未保存此书正文；书目/抽查状态见verification。"
+    },
+    {
+      "id": "FS029",
+      "title": "An Anthropological Analysis of Chinese Geomancy",
+      "author": "Stephan D. R. Feuchtwang；1974 原版，1982 重印等，后有修订版。",
+      "category": "现代学术／人类学／宇宙观",
+      "verification": "机构书目核对",
+      "checked": "核对大学馆藏与 CiNii 的 1982 重印记录；未通读正文，版次不混写。",
+      "priority": "以文化实践理解风水符号与信仰结构。",
+      "urls": [
+        "https://libcat.canterbury.ac.nz/Record/81626",
+        "https://ci.nii.ac.jp/ncid/BA06637004"
+      ],
+      "rights": "modern",
+      "rights_note": "现代作品受版权保护；仅保存书目信息、链接和原创短注，不提供受保护正文或译注。公开预览不等于再分发授权。",
+      "checked_date": "2026-10-25",
+      "research_downloaded": false,
+      "local_texts": [],
+      "local_collection_note": "本包未保存此书正文；书目/抽查状态见verification。"
+    }
+  ],
+  "supplementary_papers": [
+    {
+      "id": "SUP001",
+      "title": "论术数学于九宫之发挥──以遁甲、相宅为例",
+      "author": "许仲南",
+      "publication": "《兴大中文学报》第40期，2016年12月",
+      "url": "https://chinese.nchu.edu.tw/files/users/189/40-5.pdf",
+      "verification": "已直接核对 PDF 首页题名、作者、日期与摘要；团队其他研究员已核 PDF 第20–24页的相宅讨论；不是全文通读。",
+      "purpose": "说明九宫、八卦和相宅的历史解释结构；作者将学理研究与迷信征验区分。",
+      "rights_note": "现代研究论文，仅保存书目、来源与原创摘要，不整篇复制。",
+      "metadata_note": "网页抽取标题显示无关 Word 内部题名，应以 PDF 第1页题名为准。",
+      "downloaded": false,
+      "checked_date": "2026-10-25"
+    }
+  ],
+  "collection_manifest": "classics/manifest.json",
+  "rights_note": "原创书目说明CC BY 4.0；外部古籍转录、现代研究与数据库资料按各自许可。现代书籍未复制全文。"
+}

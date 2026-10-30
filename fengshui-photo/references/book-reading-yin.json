@@ -1,0 +1,161 @@
+{
+  "schema_version": "book-reading-yin-v8-1",
+  "read_at": "2026-10-30",
+  "scope": "直接读取本地有来源的古籍网页转录选段；不把有文件等同全书通读，不增加案例数",
+  "books_selected": 3,
+  "new_case_records": 0,
+  "readings": [
+    {
+      "book_id": "YIN-BOOK-01",
+      "title": "葬书（四库全书本）",
+      "edition_and_attribution": "四库网页转录，旧题晋郭璞；含提要及古注，具体注释归属未核",
+      "local_file": "references/classics/03-zangshu-siku.txt",
+      "revision_url": "https://zh.wikisource.org/w/index.php?title=%E8%91%AC%E6%9B%B8_(%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC)&oldid=626972",
+      "actual_local_line_ranges": [
+        [
+          1,
+          140
+        ],
+        [
+          184,
+          240
+        ],
+        [
+          286,
+          386
+        ],
+        [
+          393,
+          465
+        ]
+      ],
+      "line_scope_note": "按此包现存UTF-8文本计数，范围内读取包括古注；不同转录行号可能变化，以段首定位为准",
+      "passages": [
+        {
+          "locator": "内篇‘千尺为势百尺为形’至‘势来形止’及其古注",
+          "learning": "远来之势与近处成形分别审，不能远山美便跳过落位承接",
+          "applied_rule_ids": [
+            "YIN-R1"
+          ]
+        },
+        {
+          "locator": "‘山之不可葬者五’与童、断、石、过、独逐项古注",
+          "learning": "原注保留相似形态的例外，分类要依对象和组合条件，不以一个形名封死结论",
+          "applied_rule_ids": [
+            "YIN-R6"
+          ]
+        },
+        {
+          "locator": "‘支陇之止平夷如掌’、‘形如负扆’与‘势止形昂’古注",
+          "learning": "近形的承接、缓急与前后关系必须同看；古书葬法深浅不直接给现代施工尺寸",
+          "applied_rule_ids": [
+            "YIN-R1",
+            "YIN-R6"
+          ]
+        },
+        {
+          "locator": "外篇‘夫葬以左为青龙右为白虎’至平洋高田、水为朱雀段",
+          "learning": "四兽从立穴处言之，龙虎重回护与婉顺；古注辨龙昂虎伏传习问题，平洋亦可论低阜外卫",
+          "applied_rule_ids": [
+            "YIN-R2",
+            "YIN-R3",
+            "YIN-R4"
+          ]
+        }
+      ],
+      "not_done": [
+        "未校影印底本",
+        "未逐段通读本书所有文字",
+        "不采用古书疾病、贫富与后代因果断语"
+      ],
+      "local_sha256": "7af1d187b4e6bcdef6576afdea11fa04e3c3181d1853c692e32423350ee38706"
+    },
+    {
+      "book_id": "YIN-BOOK-02",
+      "title": "撼龙经",
+      "edition_and_attribution": "网页转录，旧题唐杨筠松；作者归属未证",
+      "local_file": "references/classics/04-hanlongjing.txt",
+      "revision_url": "https://zh.wikisource.org/w/index.php?title=%E6%92%BC%E9%BE%8D%E7%B6%93&oldid=2646322",
+      "actual_local_line_ranges": [
+        [
+          1,
+          47
+        ]
+      ],
+      "passages": [
+        {
+          "locator": "开篇‘须弥山是天地骨’长段，重点‘莫道高山方有龙’及平洋看水势、丘阜与环绕段",
+          "learning": "高山和平洋取观察线索不同，微地形与外围水势不能仅凭最高山峰替代",
+          "applied_rule_ids": [
+            "YIN-R1"
+          ]
+        },
+        {
+          "locator": "‘贪狼顿起笋生峰’、‘莫来此处认高峰’及前部剥换、护卫、背面段",
+          "learning": "象形星名须连山体关系、护从与落局，不由单峰外貌认穴；与玄空飞星数字保持体系区别",
+          "applied_rule_ids": [
+            "YIN-R1",
+            "YIN-R3"
+          ]
+        }
+      ],
+      "not_done": [
+        "未通读全书后段",
+        "篇首疑龙经/葬法倒杖为目录残留不算本次已读两书全文",
+        "不将星峰形态推出人物品性、官贵或灾祸"
+      ],
+      "local_sha256": "eeac4c735d21752f67427696c54c16096dba7a6b9b6587247e7bde99d864706a"
+    },
+    {
+      "book_id": "YIN-BOOK-03",
+      "title": "疑龙经·上篇",
+      "edition_and_attribution": "网页转录，旧题唐杨筠松；仅上篇范围",
+      "local_file": "references/classics/05-yilongjing-shang.txt",
+      "revision_url": "https://zh.wikisource.org/w/index.php?title=%E6%92%BC%E9%BE%8D%E7%B6%93/%E7%96%91%E9%BE%8D%E7%B6%93/%E4%B8%8A%E7%AF%87&oldid=1160959",
+      "actual_local_line_ranges": [
+        [
+          1,
+          28
+        ]
+      ],
+      "passages": [
+        {
+          "locator": "‘疑龙何处最难疑’至‘寻龙何处使人疑’数段",
+          "learning": "枝干、星峰与护从要分辨，漂亮峰形不等于所评墓位的主脉",
+          "applied_rule_ids": [
+            "YIN-R1"
+          ]
+        },
+        {
+          "locator": "‘大凡寻龙要寻干’水口山、朝水与朝山段",
+          "learning": "外围关局、水口及前方朝应需连成关系，不把墓旁排水孔自动等同整个水系之口",
+          "applied_rule_ids": [
+            "YIN-R3",
+            "YIN-R4"
+          ]
+        },
+        {
+          "locator": "‘到此寻穴定明堂’及护关/关峡辨别段",
+          "learning": "围合秀丽仍须辨是否所评地点的明堂，不能只看中央空地或四面有山",
+          "applied_rule_ids": [
+            "YIN-R3"
+          ]
+        }
+      ],
+      "not_done": [
+        "本轮未读中下篇或疑龙十问等附篇",
+        "未以词句落实坐标点穴",
+        "未校刻本及讹字"
+      ],
+      "local_sha256": "c6de0e919592dfa9e3f1267b1b9d03c50161b9720e3d811450a2fafaf1a67eda"
+    }
+  ],
+  "attempted_not_read": [
+    {
+      "title": "雪心赋",
+      "url": "https://zh.wikisource.org/wiki/雪心賦",
+      "status": "direct_web_open_unavailable",
+      "counts_as_read": false
+    }
+  ]
+}

@@ -1,0 +1,605 @@
+{
+  "checked_at": "2026-10-26",
+  "qualifying_public_large_corpus_verified": false,
+  "sources": [
+    {
+      "id": "chan-ma-2024",
+      "url": "https://ijesp.iikii.com.sg/4/1/15123",
+      "declared_count": 327,
+      "unit": "residences_reported_in_paper",
+      "individual_records_publicly_found": false,
+      "license": "article CC BY; underlying source images not established",
+      "eligible_now": false,
+      "use": "aggregate_research_only"
+    },
+    {
+      "id": "lin-chen-twu-2012",
+      "url": "https://www.gssinst.org/irer/2020/04/28/an-estimation-of-the-impact-of-feng-shui-on-housing-prices-in-taiwan-quantile-regression-application/",
+      "declared_count": 77624,
+      "unit": "bank_mortgage_observations",
+      "count_discrepancy": "one data-description paragraph says 76264",
+      "individual_records_publicly_found": false,
+      "images": false,
+      "license": "all rights reserved; no raw-data grant found",
+      "eligible_now": false
+    },
+    {
+      "id": "hakka-mendeley-2026",
+      "url": "https://data.mendeley.com/datasets/xfnynswjfd/1",
+      "declared_unique_building_count": 14,
+      "declared_directional_data_points": 126,
+      "unit": "building_sites",
+      "images_declared": true,
+      "license": "CC BY 4.0",
+      "eligible_now": false,
+      "reason": "14图已取得并查看；只有建筑图像研究标签，没有逐案咨询问题和结论，作为视觉参照不计目标。",
+      "next_step": "完成的获取与核图范围见acquisition_update；勿重复视为未下载候选。",
+      "acquisition_update": {
+        "archive_downloaded": true,
+        "bytes": 27039574,
+        "sha256": "563017f0fab38c53655678b2ac6ec884a23ad00e0f4ff24536c885c390c53ab2",
+        "actual_images_viewed": 14,
+        "fengshui_case_target_count": 0,
+        "reason": "图像/相似度研究没有逐案风水咨询问题与结论标签，单列视觉参照。"
+      }
+    },
+    {
+      "id": "resplan",
+      "url": "https://github.com/m-agour/ResPlan",
+      "declared_count": 17000,
+      "augmented_count": 683,
+      "near_duplicate_redundant_count": 1170,
+      "unit": "ordinary_floorplan_geometry",
+      "fengshui_labels": false,
+      "original_images": false,
+      "license": "CC BY 4.0 data; MIT code",
+      "eligible_fengshui_case_count": 0,
+      "use": "optional_separate_geometry_benchmark"
+    },
+    {
+      "id": "yeji-meta",
+      "url": "https://huggingface.co/datasets/tellang/yeji-meta/blame/95e83eef14c8fb15877d8ce1db0d11f78aa5113e/README.md",
+      "declared_count": 306684,
+      "unit": "mixed_divination_records_not_fengshui",
+      "fengshui_status_in_source": "Phase 5 Planned",
+      "license": "MIT page label",
+      "eligible_fengshui_case_count": 0
+    },
+    {
+      "id": "silvervoid-fortune-telling",
+      "url": "https://huggingface.co/datasets/silvervoid/fortune-telling",
+      "declared_count": 207,
+      "unit": "mixed_text_qa",
+      "images": false,
+      "real_project_provenance_verified": false,
+      "license": "MIT label; empty provenance card",
+      "eligible_fengshui_case_count": 0
+    },
+    {
+      "id": "jc7k-fengshui",
+      "url": "https://github.com/jc7k/fengshui",
+      "unit": "hand_authored_example_floorplans",
+      "real_project_provenance_verified": false,
+      "eligible_fengshui_case_count": 0
+    },
+    {
+      "id": "yangzhai-fengshui",
+      "url": "https://github.com/Seanding1998/yangzhai-fengshui",
+      "declared_count": 2,
+      "unit": "example_reports",
+      "license": "personal research free; commercial permission required",
+      "real_project_provenance_verified": false,
+      "eligible_fengshui_case_count": 0
+    },
+    {
+      "id": "gfsa-reviewed",
+      "url": "https://globalfengshui.org/en/cases",
+      "published_reviewed_cases_on_page": 0,
+      "unit": "reviewed_cases",
+      "eligible_fengshui_case_count": 0
+    }
+  ],
+  "counting_rules": [
+    "one building/property is one case regardless of questions or zones",
+    "exclude synthetic and augmented items from real-case count",
+    "do not count aggregate paper sample size as acquired records",
+    "do not count geometry-only plans as expert fengshui cases"
+  ],
+  "requested_target_qualified_fengshui_cases": 10001,
+  "counting_scope_note": "具体布局教学例可单列纳入已研读；普通几何/建筑视觉参照仍不计风水案例目标。",
+  "forum_feasibility": {
+    "date": "2026-10-25",
+    "source": "龙行天下风水论坛",
+    "base_url": "https://www.ok2009ok.com/",
+    "assessment": "large_candidate_pool_but_batch_transport_unavailable",
+    "counts_are_source_claims_not_learning_counts": true,
+    "source_observations": [
+      {
+        "url": "https://www.ok2009ok.com/",
+        "scope": "whole_site",
+        "topics_claimed": 108699,
+        "posts_claimed": 2177480,
+        "verification": "search_index_body",
+        "notes": "包含多种术数与闲谈；非案例完成数"
+      },
+      {
+        "url": "https://www.ok2009ok.com/thread.php?fid=58",
+        "scope": "yin_house_forum",
+        "topics_claimed": 31279,
+        "articles_claimed": 1161677,
+        "directory_pages_observed": 626,
+        "verification": "search_index_body",
+        "notes": "缓存有625/626页差异；未逐主题核读"
+      },
+      {
+        "url": "https://www.ok2009ok.com/thread.php?fid=2",
+        "scope": "yang_house_forum",
+        "directory_pages_observed": 145,
+        "verification": "search_index_body",
+        "notes": "有收费咨询子版；其7652文章不计开放案例"
+      }
+    ],
+    "probes": [
+      {
+        "tid": "163073",
+        "url": "https://www.ok2009ok.com/read.php?tid=163073",
+        "body_status": "single_page_thread_read",
+        "images": "link_only_not_viewed",
+        "case_candidate": true,
+        "study_note": "比较两套二手房；方位未明，主客路线问题有具体讨论；房东财富不构成因果证据"
+      },
+      {
+        "tid": "49762",
+        "url": "https://www.ok2009ok.com/read.php?tid=49762",
+        "body_status": "page_1_of_4_read",
+        "images": "link_only_not_viewed",
+        "case_candidate": true,
+        "study_note": "输入不足与灾福绝断并存；未读全帖，不能称完整回访"
+      },
+      {
+        "tid": "128952",
+        "url": "https://www.ok2009ok.com/read.php?tid=128952",
+        "body_status": "search_excerpt_only_open_failed",
+        "images": "not_viewed",
+        "case_candidate": "pending"
+      },
+      {
+        "tid": "115104",
+        "url": "https://www.ok2009ok.com/read.php?fid=55&tid=115104&u=",
+        "body_status": "search_excerpt_only_open_failed",
+        "images": "not_viewed",
+        "case_candidate": "pending"
+      },
+      {
+        "tid": "20689",
+        "url": "https://www.ok2009ok.com/read.php?tid=20689",
+        "body_status": "later_page_search_excerpt_only_open_failed",
+        "images": "not_viewed",
+        "case_candidate": "pending"
+      },
+      {
+        "tid": "156683",
+        "url": "https://www.ok2009ok.com/read.php?fpage=6&page=1&tid=156683",
+        "body_status": "search_excerpt_only_unicode_error",
+        "images": "not_viewed",
+        "case_candidate": false,
+        "study_note": "当前内容为理论讨论，未确认具体空间"
+      },
+      {
+        "tid": "163668",
+        "url": "https://www.ok2009ok.com/read.php?fpage=1&page=3&tid=163668",
+        "body_status": "later_page_search_excerpt_only",
+        "images": "not_viewed",
+        "case_candidate": "pending"
+      }
+    ],
+    "direct_http_probe": {
+      "file": "forum-probe-results.json",
+      "requests": 6,
+      "http_502": 6,
+      "max_workers": 2,
+      "timeout_seconds": 18,
+      "recursive": false
+    },
+    "official_lightweight_entry_status": {
+      "https://www.ok2009ok.com/simple/index.php": "web_cache_miss",
+      "https://www.ok2009ok.com/wap/index.php": "web_cache_miss"
+    },
+    "robots_status": "unavailable_not_assumed_allow_or_deny",
+    "sitemap_status": "unavailable",
+    "terms_status": "posting_rules_search_excerpt_seen_no_open_data_license_confirmed",
+    "posting_rules_url": "https://www.ok2009ok.com/read.php?tid=8&uid=332405",
+    "local_complete_case_count": 0,
+    "local_visual_review_count": 0,
+    "reason_no_learning_count": "Feasibility probe only; no cross-source dedup or complete case review ledger created.",
+    "dedup_key": "site + tid; page/fpage/skinco/uid/u variants are views not new cases",
+    "privacy": "Do not redistribute forum profiles, personal contact details, or client pictures.",
+    "target": 10001,
+    "target_met": false,
+    "browser_final_check": {
+      "date": "2026-10-26",
+      "browser": "ChatGPT in-app browser",
+      "url": "https://www.ok2009ok.com/thread.php?fid=2",
+      "modified_ua_proxy_or_cookies": false,
+      "login_or_challenge_bypass": false,
+      "open_tool_result": "33-second timeout and kernel reset",
+      "subsequent_inventory_observation": {
+        "url": "https://www.ok2009ok.com/thread.php?fid=2",
+        "title": "502 Bad Gateway"
+      },
+      "existing_tab_read_result": "32-second timeout and kernel reset; body/screenshot not obtained",
+      "robots_browser_check": "not_attempted_after_error_stop",
+      "low_speed_bulk_ready": false,
+      "stopping_reason": "Ordinary browser also reached a 502 error title; no further reloads or bypasses."
+    }
+  },
+  "initial_large_dataset_search_qualified_count": 0,
+  "current_qualified_case_count": 37,
+  "current_count_authority": "stats.json; source candidate counts below are not completion counts",
+  "round2_qualified_increment": 11,
+  "round2_records_added": 14,
+  "round2_held_for_layout_detail": [
+    "ROUND2-001",
+    "ROUND2-002",
+    "ROUND2-003"
+  ],
+  "round2_source_checks": {
+    "checked_at": "2026-10-26",
+    "chinese": [
+      {
+        "id": "cari_fid288",
+        "name": "佳礼资讯网 风水术数",
+        "directory": "https://cn.cari.com.my/forum.php?mod=forumdisplay&fid=288",
+        "pagination": "https://cn.cari.com.my/forum.php?mod=forumdisplay&fid=288&page={N}",
+        "scale_evidence": {
+          "method": "live_http",
+          "url": "https://cn.cari.com.my/forum.php?mod=forumdisplay&fid=288&page=92",
+          "status": 200,
+          "threads": 11508,
+          "pages": 384
+        },
+        "body_verified": true,
+        "samples": [
+          {
+            "url": "https://cn.cari.com.my/forum.php?mod=viewthread&tid=3507505",
+            "title": "新婚卧室风水摆放位置？",
+            "http_status": 200,
+            "assessment": "Specific home layout question comparing three bed, door, and bathroom configurations; targeted replies read; images not visually checked."
+          },
+          {
+            "url": "https://cn.cari.com.my/forum.php?mod=viewthread&tid=3781571",
+            "title": "请帮忙看看房子风水",
+            "http_status": 200,
+            "assessment": "Specific floor-plan question about kitchen, bathroom, living/dining divider wall, and altar position; replies read; attached floor plan not downloaded or visually checked."
+          }
+        ],
+        "access": {
+          "robots_url": "https://cn.cari.com.my/robots.txt",
+          "robots_status": 200,
+          "ordinary_forum_pages_disallowed": false,
+          "prohibited_paths_observed": [
+            "/search.php",
+            "/api/",
+            "/api.php",
+            "/admin.php",
+            "/member.php",
+            "/forum.php?mod=redirect*",
+            "/forum.php?mod=post*"
+          ],
+          "license": "No open reproduction license found; copyright footer present.",
+          "other_rules": "Disclaimer and about pages returned 403 through web; stopped without alternate-route probing."
+        },
+        "proven_qualifying_total": null,
+        "status": "readable_mixed_candidate_pool_not_10001_cases",
+        "reason": "A sampled 30-topic page includes astrology, palm reading, dreams, rituals and general discussion. No evidence that at least 10001 topics are distinct physical layout cases."
+      },
+      {
+        "id": "destiny_fengshui",
+        "name": "DestinyNet 命理网 风水理论研讨与峦头欣赏",
+        "directory": "https://destiny.to/ubbthreads/ubbthreads.php/forum_summary",
+        "pagination": "https://destiny.to/ubbthreads/ubbthreads.php/ubb/postlist/Board/9/page/{N}",
+        "scale_evidence": {
+          "method": "live_http",
+          "status": 200,
+          "theory_threads": 5102,
+          "theory_posts": 41585,
+          "theory_pages": 256,
+          "landform_threads": 669,
+          "landform_posts": 3912,
+          "all_fengshui_thread_ceiling": 5771
+        },
+        "body_verified": true,
+        "samples": [
+          {
+            "url": "https://destiny.to/ubbthreads/topic/128625",
+            "title": "七运屋在八运的看法",
+            "http_status": 200,
+            "assessment": "Text case with dwelling orientation, door orientation and occupation period; no floor plan visually checked."
+          }
+        ],
+        "access": {
+          "robots_url": "https://destiny.to/robots.txt",
+          "robots_status": 200,
+          "robots_summary": "Generic agents Allow /; GPTBot disallowed /app/; several named commercial crawlers disallowed sitewide.",
+          "rules_url": "https://destiny.to/ubbthreads/topic/5051",
+          "rules_status": 200,
+          "license": "Rules state article copyright belongs to original posters and reproduction elsewhere requires their consent. Read-only research only; no author contacted."
+        },
+        "proven_qualifying_total": null,
+        "status": "below_10001_and_reproduction_requires_permission",
+        "reason": "Even total threads across both feng-shui boards are below target; mixed theory, legends and burial topics."
+      },
+      {
+        "id": "shusquare_yangzhai",
+        "name": "术数纵横 阳宅个案",
+        "directory": "https://forum.shusquare.com/forum.php?mod=forumdisplay&fid=11",
+        "pagination": "https://forum.shusquare.com/forum.php?mod=forumdisplay&fid=11&page={N}",
+        "scale_evidence": {
+          "method": "web_directory",
+          "threads": 726,
+          "pages": 25,
+          "example_category_threads": 93,
+          "other_real_cases_board_threads": 537
+        },
+        "body_verified": true,
+        "samples": [
+          {
+            "url": "https://forum.shusquare.com/forum.php?mod=viewthread&tid=113252",
+            "title": "平面图风水预测分析",
+            "http_status": 200,
+            "assessment": "Body read, but mostly personality/health/family claims and too little physical layout detail to count by title."
+          },
+          {
+            "url": "https://forum.shusquare.com/forum.php?mod=viewthread&tid=115297",
+            "title": "2013.5.10在某小区看风水",
+            "http_status": 200,
+            "assessment": "Body read, star chart and four image markers present; text mostly generic chart interpretation; images not visually checked, not counted."
+          }
+        ],
+        "access": {
+          "robots_url": "https://forum.shusquare.com/robots.txt",
+          "robots_status": 200,
+          "ordinary_forum_pages_disallowed": false,
+          "license": "No open reproduction license found; search/API/admin/posting paths prohibited by robots."
+        },
+        "proven_qualifying_total": null,
+        "status": "small_candidate_pool",
+        "reason": "Scale far below target and named case board still needs per-post verification."
+      },
+      {
+        "id": "fengshui168_cases",
+        "name": "天机易学论坛 风水168 阴阳宅风水实例",
+        "directory": "https://fengshui-168.net/forum-43-209.html",
+        "scale_evidence": {
+          "method": "search_readable_directory",
+          "threads": 4266,
+          "pages": 86,
+          "residential_inspection": 640,
+          "residential_requests": 294,
+          "orientation_layout": 270,
+          "shops": 200
+        },
+        "body_verified": false,
+        "access": {
+          "robots_url": "https://fengshui-168.net/robots.txt",
+          "robots_status": null,
+          "failure": "Ordinary HTTP TLS connection failed; web homepage timed out. No certificate bypass or login attempted.",
+          "license": "Unverified"
+        },
+        "proven_qualifying_total": null,
+        "status": "below_target_and_body_access_unverified"
+      },
+      {
+        "id": "72ju_residential",
+        "name": "超良周易风水论坛",
+        "directory": "https://www.72ju.com/",
+        "scale_evidence": {
+          "method": "web_homepage",
+          "residential_case_threads": 370,
+          "burial_threads_excluded": 877
+        },
+        "body_verified": false,
+        "access": {
+          "license": "Unverified"
+        },
+        "proven_qualifying_total": null,
+        "status": "small_pool_directory_only"
+      },
+      {
+        "id": "kanyuw_cases",
+        "name": "杨公风水专业论坛 案例臻萃",
+        "directory": "https://bbs.kanyuw.com/forum.php?mod=forumdisplay&fid=14&page=28",
+        "scale_evidence": {
+          "method": "search_directory",
+          "threads": 709
+        },
+        "body_verified": false,
+        "access": {
+          "license": "Unverified"
+        },
+        "proven_qualifying_total": null,
+        "status": "below_target_directory_only",
+        "reason": "Specific factory and apartment titles are present, but titles were not counted as cases and burial content is mixed in."
+      },
+      {
+        "id": "chinafengshui_yangzhai",
+        "name": "中国风水文化研究院 阳宅风水",
+        "directory": "https://bbs.chinafengshui.com/forum.php",
+        "scale_evidence": {
+          "method": "search_directory",
+          "residential_threads": 213
+        },
+        "body_verified": false,
+        "access": {
+          "failure": "web homepage timeout",
+          "license": "Unverified"
+        },
+        "status": "below_target_directory_only"
+      },
+      {
+        "id": "longyinok_fengshui",
+        "name": "龙隐新论坛 风水堪舆",
+        "directory": "https://bbs.longyinok.com/",
+        "scale_evidence": {
+          "method": "search_homepage",
+          "fengshui_threads": 308
+        },
+        "body_verified": false,
+        "status": "below_target_not_further_probed"
+      },
+      {
+        "id": "discuss_hk_fengshui",
+        "name": "香港讨论区 风水玄学命理",
+        "directory": "https://www.discuss.com.hk/forumdisplay.php?fid=204",
+        "scale_evidence": null,
+        "body_verified": false,
+        "access": {
+          "failure": "Original page required identity confirmation before browsing; stopped without login, CAPTCHA solving, or alternate route."
+        },
+        "status": "identity_gate_stopped"
+      }
+    ],
+    "english": [
+      {
+        "id": "geomancy_forums",
+        "url": "https://www.geomancy.net/forums/",
+        "status": "promising_reading_candidate_not_open_corpus",
+        "displayed_site_topics_rounded": "19.4k",
+        "displayed_site_posts_rounded": "60.2k",
+        "selected_category_candidate_topic_sum": 12698,
+        "qualified_unique_case_count": null,
+        "count_caveat": "Mixed content and cached category snapshots; neither sum nor posts are case counts.",
+        "categories": [
+          {
+            "url": "https://www.geomancy.net/forums/forum/2-general-help-or-advice/",
+            "topics": 9544,
+            "pages": 382,
+            "cache_age_at_read": "6 months"
+          },
+          {
+            "url": "https://www.geomancy.net/forums/forum/19-around-singapore/",
+            "topics": 2173,
+            "pages": 87,
+            "cache_age_at_read": "3 months"
+          },
+          {
+            "url": "https://www.geomancy.net/forums/forum/32-singapore-property-reviews/",
+            "topics": 790,
+            "pages": 32,
+            "cache_age_at_read": "2 months"
+          },
+          {
+            "url": "https://www.geomancy.net/forums/forum/12-feng-shui-for-business/",
+            "topics": 191,
+            "pages": 8,
+            "cache_age_at_read": "7 months"
+          }
+        ],
+        "pagination_verified": [
+          "https://www.geomancy.net/forums/forum/2-general-help-or-advice/page/2/",
+          "https://www.geomancy.net/forums/forum/19-around-singapore/page/2/"
+        ],
+        "pagination_end_to_end_verified": false,
+        "public_api_or_export_established": false,
+        "rights": {
+          "url": "https://m.geomancy.net/about/copyright/copyright.php",
+          "evidence": "Primary notice readable as indexed search text; standalone open cache miss",
+          "open_license": false,
+          "restriction": "Notice restricts reproduction, retrieval-system storage and adaptation; do not assume portable-corpus rights."
+        },
+        "samples": [
+          {
+            "url": "https://www.geomancy.net/forums/topic/1903-placement-of-mirrors-in-the-house/",
+            "body_readable": true,
+            "classification": "self_reported_real_spatial_question_with_reply"
+          },
+          {
+            "url": "https://www.geomancy.net/forums/topic/18884-unit-in-a-valley-with-main-door-facing-stairs-coming-down/",
+            "body_readable": true,
+            "classification": "self_reported_real_spatial_question_with_discussion"
+          },
+          {
+            "url": "https://www.geomancy.net/forums/topic/19601-master-bedroom-bed-facing-sliding-door-to-walk-in-wardrobe/",
+            "body_readable": true,
+            "classification": "self_reported_real_spatial_question_with_reply"
+          },
+          {
+            "url": "https://www.geomancy.net/forums/topic/19447-hdb-aranda-breeze-yishun-nov-2022-build-to-order-unit-should-not-face-the-spire-of-a-church-under-this-case-study-2-which-units-are-the-best-performers-today/",
+            "body_readable": true,
+            "classification": "identified_property_review_with_subexamples_and_other_property_material"
+          },
+          {
+            "url": "https://www.geomancy.net/forums/topic/19932-treescape-lorong-n-telok-kurau-with-example-of-a-period-8-sw1-worst-facing-unit-under-period-9-2024-2043/",
+            "body_readable": true,
+            "classification": "property_review_plus_explicit_transferred_teaching_illustration"
+          },
+          {
+            "url": "https://www.geomancy.net/forums/topic/17949-volume-1-of-2-selected-cases-with-real-life-examples-of-ba-zi-feng-shui-eight-house-flying-stars-shapes-forms-water-classics-lots-more-concepts-useful-to-get-into-the-head-of-a-fs-master/",
+            "body_readable": true,
+            "classification": "client_claimed_teaching_examples_unique_case_count_unverified"
+          }
+        ],
+        "image_pixels_verified": false,
+        "legacy_archive": {
+          "url": "https://users.geomancy.net/resources/forum-archive/msglist.htm",
+          "status": "indexed_but_open_unicode_decoding_error",
+          "do_not_add_to_modern_total": true
+        },
+        "direct_http_test": "One PowerShell request failed connection refusal; no retry/escalation",
+        "crawl_performed": false
+      },
+      {
+        "id": "mendeley_hakka",
+        "url": "https://data.mendeley.com/datasets/xfnynswjfd/1",
+        "doi": "10.17632/xfnynswjfd.1",
+        "published": "2026-06-22",
+        "site_count": 14,
+        "sector_observation_count": 126,
+        "classification": "academic_layout_and_bagua_matching_not_practitioner_outcome_cases",
+        "license": "CC BY 4.0",
+        "landing_readable": true,
+        "download_button_present": true,
+        "file_export_verified": false,
+        "status": "small_supplement"
+      },
+      {
+        "id": "renotalk",
+        "url": "https://www.renotalk.com/forum/forum/7-geomancyfengshui/",
+        "candidate_topics": 1219,
+        "pages": 49,
+        "qualified_case_count": null,
+        "status": "below_target_and_spam_contaminated_index"
+      },
+      {
+        "id": "fivearts",
+        "url": "https://fivearts.org/index.php?action=stats",
+        "whole_site_topics": 1763,
+        "status": "below_target_before_filtering"
+      },
+      {
+        "id": "amfengshui",
+        "url": "https://www.amfengshui.com/topics/",
+        "displayed_total_topics": 181,
+        "pages": 13,
+        "status": "below_target_public_index_only"
+      },
+      {
+        "id": "homeone",
+        "url": "https://forum.homeone.com.au/viewforum.php?f=24",
+        "displayed_pages": 2,
+        "qualified_case_count": null,
+        "status": "small_public_category"
+      },
+      {
+        "id": "gfsa",
+        "url": "https://globalfengshui.org/en/cases",
+        "reviewed_published_in_current_filter": 0,
+        "indexed_legacy_research_scenarios": 6,
+        "status": "small_explicitly_educational_scenarios_not_audited_records"
+      }
+    ],
+    "source_research_alone_added_cases": 0,
+    "qualified_increment_is_from_separately_read_case_ledger": true,
+    "large_qualified_corpus_established": false
+  }
+}

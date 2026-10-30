@@ -1,0 +1,6 @@
+interface:
+  display_name: "卜君风水布局"
+  short_description: "阴宅阳宅书籍与案例研读，论住宅商业和墓地形势，支持实际图像标注与专业报告"
+  default_prompt: "使用 $fengshui-photo，根据我的问题研读阴宅阳宅书籍与既有案例，或分析所附图片，并给出严谨通俗的布局依据与取舍。"
+policy:
+  allow_implicit_invocation: true

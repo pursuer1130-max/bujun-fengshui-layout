@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-27",
+  "scope": "既有文献记载的研究样本与主题；不是逐案咨询报告，也不是本项目重新制作的案例。",
+  "cross_source_unique_total": null,
+  "counting_note": "研究样本、咨询实录、图例、主题及论文篇数分别保留。不得合加或据总样本数声称存在同量可读咨询案。",
+  "sources": [
+    {
+      "id": "RS-LIN-2012",
+      "title": "An Estimation of the Impact of Feng-Shui on Housing Prices in Taiwan: A Quantile Regression Application",
+      "authors": [
+        "Chu-Chia Lin",
+        "Chien-Liang Chen",
+        "Ya-Chien Twu"
+      ],
+      "publication": "International Real Estate Review 15(3), 2012, 325–346",
+      "url": "https://www.gssinst.org/irer/wp-content/uploads/2020/10/v15n3-an-estimation-of-the-impact-of-feng-shui-on-housing-prices-in-taiwan.pdf",
+      "reported_count": 77624,
+      "count_unit": "2002–2007年银行住房按揭/交易观察",
+      "count_discrepancy": "摘要和表3使用77,624；数据说明一处写76,264。保留差异，不替作者改数。",
+      "verification": "已读原刊PDF摘要、数据说明、表1变量与表3相关文本；未取得逐户原始数据。",
+      "knowledge_use": "可借鉴外局记录项：路冲、无尾巷、近高架、近墓地/殡仪设施、近庙宇及楼层数字；市场文化偏好与实际环境条件分别解释。",
+      "limit": "属于统计研究资料，不能从房价相关性推出命运、疾病或某一当前房屋应折价多少。",
+      "individual_records_acquired": false
+    },
+    {
+      "id": "RS-LIN-HUANG-2014",
+      "title": "嫌惡性風水對商用不動產價格影響之研究",
+      "authors": [
+        "林祖嘉",
+        "黃麗蓉"
+      ],
+      "publication": "住宅學報23(1), 2014, 51–72",
+      "url": "https://www.housing.org.tw/sites/default/files/journal_file/2022-12/%E4%BD%8F%E5%AE%85%E5%AD%B8%E5%A0%B1_%E7%AC%AC%E4%BA%8C%E5%8D%81%E4%B8%89%E5%8D%B7%E7%AC%AC%E4%B8%80%E6%9C%9F_%E6%9E%97%E7%A5%96%E5%98%89.pdf",
+      "reported_count": 10993,
+      "count_unit": "商用不动产交易样本",
+      "verification": "已读学会原刊PDF首页中英文摘要与前言；不是逐案全文或原始交易记录。",
+      "knowledge_use": "区分店面、办公室及住办合用场景，讨论路冲可见性与传统避冲偏好之间的取舍，另核交通、噪声及到店路径。",
+      "limit": "与其他银行样本是否重叠未核，不能相加成独立咨询案，也不作当前估价公式。",
+      "individual_records_acquired": false
+    },
+    {
+      "id": "RS-CHAN-MA-2024",
+      "title": "Relationship Between Interior Layout of Second-Hand Houses For Sale and Feng Shui",
+      "authors": [
+        "Shihchien Chan",
+        "Tzu-Chun Ma"
+      ],
+      "publication": "International Journal of Environmental Sustainability and Protection 4(1), 2024, 1–9",
+      "url": "https://ijesp.iikii.com.sg/4/1/15123",
+      "doi": "10.35745/ijesp2024v04.01.0001",
+      "reported_count": 327,
+      "count_unit": "待售及在住二手房研究样本",
+      "verification": "已读出版者摘要；本包先前研究笔记已列相关观察项，未取得逐户公开账本。",
+      "knowledge_use": "住宅可分别记录阳台、入口、灶及前后视线，再分析关系；不把B.E.S.T.简称改成四条必然吉凶。",
+      "limit": "市场分组的相关差异不证明健康、财运或一定更易售。",
+      "individual_records_acquired": false
+    },
+    {
+      "id": "RS-HAN-2023-TABOOS",
+      "title": "An empirical study of consistency in the judgments of Feng Shui scholars and practitioners regarding taboos for residential space",
+      "authors": [
+        "Ke-Tsung Han"
+      ],
+      "publication": "Heliyon 9(4), 2023, e15296",
+      "url": "https://doi.org/10.1016/j.heliyon.2023.e15296",
+      "reported_count": 108,
+      "count_unit": "住宅禁忌调查题项，不是108所住宅",
+      "verification": "已核出版者/作者摘要的索引文本与题名；当前正文跳转不可达，不称已读全文。",
+      "knowledge_use": "讨论传统判断的一致性与流派差异时可定位此研究；从业者同意度和住户实际效果分别评价。",
+      "limit": "不由题项数、共识或职业身份推出规则必真。",
+      "individual_records_acquired": false
+    },
+    {
+      "id": "RS-HAN-LIN-2023-REVIEW",
+      "title": "Empirical and quantitative studies of Feng Shui: A systematic review",
+      "authors": [
+        "Ke-Tsung Han",
+        "Jin-Kai Lin"
+      ],
+      "publication": "Heliyon 9(9), 2023, e19532",
+      "url": "https://doi.org/10.1016/j.heliyon.2023.e19532",
+      "reported_count": 36,
+      "count_unit": "纳入综述的论文，不是36个咨询案",
+      "verification": "已读作者摘要与检索到的讨论节文本；当前PMC正文触发验证，出版者正文403，未绕过。",
+      "knowledge_use": "区分环境、生态、房屋市场和人的结果等研究对象，按主题找原研究，避免把各种结果合成一个效果。",
+      "limit": "综述异质性大，不能汇总为本技能预测成功率。",
+      "individual_records_acquired": false
+    }
+  ]
+}

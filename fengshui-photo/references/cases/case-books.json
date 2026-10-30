@@ -1,0 +1,763 @@
+{
+  "schema_version": "1.0",
+  "verified_at": "2026-10-27",
+  "task_scope": "已出版、已有記載的風水案例來源調查；不是新處理圖片任務。",
+  "target_recorded_cases": 10000,
+  "target_proven": false,
+  "source_policy": "優先出版者/官方經銷及圖書館；未下載受版權保護全文或盜版。",
+  "actual_reading_scope": "出版社/正式經銷書目、介紹、部分完整目錄；所有條目均未取得完整案例正文。",
+  "verified_unique_case_records_read": 0,
+  "counts_policy": {
+    "do_not_sum": "記錄數、圖數、教學題數、提示數、冊數均不等價；同案不同版本不重計。",
+    "case_count_claims": "CB001 71條、CB002 約150案、CB006 180餘則、CB013 8案、CB014 25案是各自來源的數量聲稱；相互去重未完成，不能相加宣稱434餘例已讀/已學。",
+    "excluded_from_recorded_case_total": [
+      "CB003選自CB002",
+      "CB005兩種傳本重疊未核",
+      "CB010圖數",
+      "CB012教學現象數",
+      "CB015目錄題數",
+      "CB017設計彩圖/提示數"
+    ],
+    "ten_thousand_assessment": "本次正式出版來源的可見明確數量僅數百量級，不能證明至少一萬例，更不能宣稱已吸收一萬例。"
+  },
+  "entries": [
+    {
+      "id": "CB001",
+      "title": "沈氏玄空學評註（上冊）",
+      "authors": [
+        "沈竹礽等原著",
+        "劉賁評註"
+      ],
+      "publisher": "進源文化",
+      "publication": "2015-02-05（出版者目錄）",
+      "isbn": [
+        "9789869129008"
+      ],
+      "sources": [
+        {
+          "role": "publisher_catalog",
+          "url": "https://www.chinyuan.com.tw/combook/more?id=6971"
+        }
+      ],
+      "schools": [
+        "三元玄空",
+        "沈氏玄空",
+        "章仲山宅斷"
+      ],
+      "scenes": [
+        "陰宅",
+        "陽宅",
+        "山向與元運"
+      ],
+      "count_claim": "目錄明列陰宅54條、陽宅17條，共71條宅斷。",
+      "count_value": 71,
+      "count_unit": "宅斷條目（54陰宅＋17陽宅）",
+      "count_evidence": "publisher_table_of_contents",
+      "count_is_independent_sites": false,
+      "verification": "已讀出版者書目、評註序及完整宅斷目錄；未取得或通讀正文、未核圖版、未核歷史事件。",
+      "usable_content": [
+        "可按陰陽宅、元運、正向或兼向定位條目；目錄本身不能支持各案的改造細節或斷語。",
+        "正文與劉賁新增評註須分欄；圖表格式不是現場證據。"
+      ],
+      "duplicate_family": "章仲山—沈氏宅斷",
+      "count_caution": "同一批宅斷有多種點校、增註、影印本；不得按ISBN重複計數。",
+      "content_acquired": false
+    },
+    {
+      "id": "CB002",
+      "title": "臨穴指南（虛白廬藏本）【新修訂版原（彩）色本】",
+      "authors": [
+        "章仲山（清）"
+      ],
+      "publisher": "心一堂",
+      "publication": "2017（出版者介紹）",
+      "isbn": [
+        "9789888317387"
+      ],
+      "sources": [
+        {
+          "role": "publisher_catalog",
+          "url": "https://publish.sunyata.hk/archives/tag/%E8%87%A8%E7%A9%B4%E6%8C%87%E5%8D%97/"
+        },
+        {
+          "role": "publisher_cross_reference",
+          "url": "https://publish.sunyata.hk/product/1060.html"
+        }
+      ],
+      "schools": [
+        "三元玄空",
+        "無常派"
+      ],
+      "scenes": [
+        "陰宅為主",
+        "覆墳相宅",
+        "外局"
+      ],
+      "count_claim": "出版者稱約150例；對讀介紹稱多陰宅少陽宅、外局較詳，未錄擇日。",
+      "count_value": 150,
+      "count_unit": "約數宅案",
+      "count_evidence": "publisher_description_claim",
+      "count_is_independent_sites": false,
+      "verification": "已讀出版者介紹及另一書的對讀說明；未逐條點數、未讀圖版及案例正文。",
+      "usable_content": [
+        "作歷史覆驗記錄來源的索引；適合查外局、山水與二宅斷語。",
+        "與陽宅內局資料分開，不能用來直接推出家具擺放規則。"
+      ],
+      "duplicate_family": "章仲山—臨穴指南",
+      "count_caution": "150為出版者約數；與仲山宅斷、談氏節錄、臨穴指南選註存在重疊。",
+      "content_acquired": false
+    },
+    {
+      "id": "CB003",
+      "title": "臨穴指南選註",
+      "authors": [
+        "章仲山原著",
+        "梁國誠（梁正言）選註"
+      ],
+      "publisher": "心一堂",
+      "publication": "2017",
+      "isbn": [
+        "9789888317363"
+      ],
+      "sources": [
+        {
+          "role": "publisher_catalog",
+          "url": "https://publish.sunyata.hk/archives/tag/%E8%87%A8%E7%A9%B4%E6%8C%87%E5%8D%97/"
+        },
+        {
+          "role": "licensed_book_metadata",
+          "url": "https://books.google.com/books/about/%E8%87%A8%E7%A9%B4%E6%8C%87%E5%8D%97%E9%81%B8%E8%A8%BB.html?id=NnzvDQAAQBAJ"
+        }
+      ],
+      "schools": [
+        "無常派玄空"
+      ],
+      "scenes": [
+        "無錫歷史墓宅",
+        "地貌復原",
+        "版本考證"
+      ],
+      "count_claim": "出版者稱從臨穴指南選取18案作註，並赴無錫勘察，加入手繪地貌圖與航拍。",
+      "count_value": 18,
+      "count_unit": "原書選註案",
+      "count_evidence": "publisher_description_claim",
+      "count_is_independent_sites": false,
+      "verification": "只核介紹及ISBN；未看現勘圖、航拍或註文。",
+      "usable_content": [
+        "可建立古案—今地貌—版本註釋的三層證據欄。",
+        "現代註釋與古案原記分開記錄。"
+      ],
+      "duplicate_family": "章仲山—臨穴指南",
+      "count_caution": "18案是CB002的選本，不增加獨立案例數。",
+      "content_acquired": false
+    },
+    {
+      "id": "CB004",
+      "title": "章仲山宅案附無常派玄空秘要",
+      "authors": [
+        "章仲山門人所記；原抄本無撰人姓名（經銷介紹）",
+        "心一堂整理"
+      ],
+      "publisher": "心一堂",
+      "publication": "2014",
+      "isbn": [
+        "9789888266890"
+      ],
+      "sources": [
+        {
+          "role": "publisher_catalog",
+          "url": "https://publish.sunyata.hk/product/1060.html"
+        },
+        {
+          "role": "official_distributor",
+          "url": "https://store.showwe.tw/books.aspx?b=3054"
+        }
+      ],
+      "schools": [
+        "無常派玄空"
+      ],
+      "scenes": [
+        "陽宅為主",
+        "門",
+        "路",
+        "灶",
+        "內局",
+        "天星擇日"
+      ],
+      "count_claim": "已核介紹未見本書的明確案例總數；其中150例指臨穴指南，不能轉記成本書數量。",
+      "count_value": null,
+      "count_unit": "未核定宅案",
+      "count_evidence": "unknown",
+      "count_is_independent_sites": false,
+      "verification": "已讀出版者介紹、ISBN、與臨穴指南的範圍比較；未讀原抄本。",
+      "usable_content": [
+        "對內局、門路灶、布局作法及擇日有明確書目索引用途。",
+        "適合與偏外局的臨穴指南對照，不把兩書描述混為同案內容。"
+      ],
+      "duplicate_family": "章仲山—門內宅案",
+      "count_caution": "本書案例數未知；68頁與經銷平台90頁著錄不同，保留版本差異。",
+      "content_acquired": false
+    },
+    {
+      "id": "CB005",
+      "title": "章仲山家傳《二宅玄機》二種（《陰陽二宅錄驗》）附《臨穴指南節錄本》《青囊總秘要訣》",
+      "authors": [
+        "章仲山（清）"
+      ],
+      "publisher": "心一堂",
+      "publication": "2019",
+      "isbn": [
+        "9789888582860"
+      ],
+      "sources": [
+        {
+          "role": "publisher_catalog",
+          "url": "https://publish.sunyata.hk/product/6310.html"
+        }
+      ],
+      "schools": [
+        "無常派玄空"
+      ],
+      "scenes": [
+        "陰陽宅",
+        "下元作法",
+        "造葬",
+        "改陽宅",
+        "擇日"
+      ],
+      "count_claim": "出版者稱家傳過鈔本50餘則及註，另一民國鈔本60餘則及註；兩版本有增刪異文。",
+      "count_value": null,
+      "count_unit": "兩個傳本內的宅案則數",
+      "count_evidence": "publisher_description_claim",
+      "count_components": [
+        {
+          "value": 50,
+          "qualifier": "餘",
+          "unit": "第一傳本則數"
+        },
+        {
+          "value": 60,
+          "qualifier": "餘",
+          "unit": "第二傳本則數"
+        }
+      ],
+      "count_is_independent_sites": false,
+      "verification": "已讀出版者書目、兩底本說明與數量宣稱；未逐案比對。",
+      "usable_content": [
+        "可建立版本對照，不同存案數與不同批註不應合併成單一標準規則。",
+        "出版者把陰陽二宅錄驗與二宅玄機、臨穴指南合訂關係寫作推測，須保留存疑。"
+      ],
+      "duplicate_family": "章仲山—二宅玄機與錄驗",
+      "count_caution": "不得把50餘＋60餘記成110餘獨立案例；與臨穴指南節本、沈氏宅斷須去重。",
+      "content_acquired": false
+    },
+    {
+      "id": "CB006",
+      "title": "三元大玄空地理二宅實驗（足本修正版）",
+      "authors": [
+        "尤惜陰（演本法師）",
+        "榮柏雲"
+      ],
+      "publisher": "心一堂",
+      "publication": "2018影印；底本為1927年自印本，附二次正誤表",
+      "isbn": [
+        "9789888582006"
+      ],
+      "sources": [
+        {
+          "role": "publisher_catalog",
+          "url": "https://publish.sunyata.hk/product/1107.html"
+        }
+      ],
+      "schools": [
+        "三元玄空",
+        "無常派尤氏支系"
+      ],
+      "scenes": [
+        "陰陽宅",
+        "歷史宅案"
+      ],
+      "count_claim": "出版者稱宅案180餘則，分為尤惜陰30餘則、榮柏雲150餘則。",
+      "count_value": 180,
+      "count_qualifier": "餘",
+      "count_unit": "出版者聲稱的宅案則數",
+      "count_evidence": "publisher_description_claim",
+      "count_is_independent_sites": false,
+      "verification": "已讀出版者ISBN、底本、數量與流派介紹；未讀正文或目錄圖。",
+      "usable_content": [
+        "將師徒各自的宅案來源分欄；正誤表須隨正文版本保留。",
+        "出版者強調其與沈氏同源而用法不全相同，故流派欄不宜直接寫沈氏。"
+      ],
+      "duplicate_family": "尤惜陰—榮柏雲宅運案",
+      "count_caution": "180餘為來源宣稱，非逐案核驗；可能與同作者宅運新案、宅運撮要重收。",
+      "content_acquired": false
+    },
+    {
+      "id": "CB007",
+      "title": "《談氏三元地理大玄空實驗》附《談養吾秘稿》",
+      "authors": [
+        "談養吾（民國）"
+      ],
+      "publisher": "心一堂",
+      "publication": "2018介紹；實驗底本為1924年刊本",
+      "isbn": [
+        "9789888316779"
+      ],
+      "sources": [
+        {
+          "role": "publisher_catalog",
+          "url": "https://publish.sunyata.hk/archives/594"
+        }
+      ],
+      "schools": [
+        "無常派玄空",
+        "談氏前期飛星"
+      ],
+      "scenes": [
+        "香港",
+        "廣東",
+        "江浙",
+        "陰陽宅",
+        "奇門占驗（附錄）"
+      ],
+      "count_claim": "出版者稱含多地二宅例，沒有公開明確總數。",
+      "count_value": null,
+      "count_unit": "未核定二宅例",
+      "count_evidence": "unknown",
+      "count_is_independent_sites": false,
+      "verification": "已核介紹及ISBN；未讀正文。",
+      "usable_content": [
+        "按地區與陰陽宅檢索；附錄奇門占案獨立分類，不能計入風水宅案。",
+        "書內臨穴指南節錄屬既有文獻重收。"
+      ],
+      "duplicate_family": "談養吾—前期玄空實驗",
+      "count_caution": "不可將附錄占卜案或重收古案全部算作新風水案例。",
+      "content_acquired": false
+    },
+    {
+      "id": "CB008",
+      "title": "宅運撮要",
+      "authors": [
+        "尤惜陰（演本法師）",
+        "榮柏雲"
+      ],
+      "publisher": "心一堂",
+      "publication": "2016介紹；底本1940再版，原1935初版",
+      "isbn": [
+        "9789888317417"
+      ],
+      "sources": [
+        {
+          "role": "publisher_catalog",
+          "url": "https://publish.sunyata.hk/archives/tag/%E5%AE%85%E9%81%8B%E6%96%B0%E6%A1%88/"
+        },
+        {
+          "role": "official_distributor",
+          "url": "https://store.showwe.tw/books.aspx?b=110473"
+        }
+      ],
+      "schools": [
+        "無常派尤氏支系"
+      ],
+      "scenes": [
+        "陽宅",
+        "宅運",
+        "方法摘編"
+      ],
+      "count_claim": "三集宅運新案的精要摘編；三集是書冊/集數，不是3例。案例總數未核。",
+      "count_value": null,
+      "count_unit": "未核定摘編案",
+      "count_evidence": "unknown",
+      "count_is_independent_sites": false,
+      "verification": "已讀出版者底本與來源介紹；未核內容逐條。",
+      "usable_content": [
+        "可作宅運新案的摘要入口和用法比較來源。",
+        "尤氏、談氏、沈氏的同源與差異必須分開標記。"
+      ],
+      "duplicate_family": "尤惜陰—榮柏雲宅運案",
+      "count_caution": "摘要與原集不能重複計數。",
+      "content_acquired": false
+    },
+    {
+      "id": "CB009",
+      "title": "《沈氏玄空挨星圖》《沈註章仲山宅斷未定稿》《沈氏玄空學（四卷原本）》合刊",
+      "authors": [
+        "沈竹礽",
+        "章仲山",
+        "江志伊等"
+      ],
+      "publisher": "心一堂",
+      "publication": "2018",
+      "isbn": [
+        "9789888582068"
+      ],
+      "sources": [
+        {
+          "role": "publisher_catalog",
+          "url": "https://publish.sunyata.hk/product/1109.html"
+        },
+        {
+          "role": "official_distributor",
+          "url": "https://store.showwe.tw/books.aspx?b=119769"
+        }
+      ],
+      "schools": [
+        "沈氏玄空",
+        "無常派"
+      ],
+      "scenes": [
+        "古案版本比較",
+        "挨星法比較"
+      ],
+      "count_claim": "三冊、三種文獻；沒有可獨立加總的新增案例數。",
+      "count_value": null,
+      "count_unit": "文獻版本而非獨立案例",
+      "count_evidence": "unknown",
+      "count_is_independent_sites": false,
+      "verification": "已讀書目與版本說明；未校圖、未讀案例正文。",
+      "usable_content": [
+        "四卷原本、六卷重編本及宅斷未定稿有異文與盤法差異，可建立版本衝突欄。",
+        "宅斷未定稿為殘本，不能自動視作完整原案。"
+      ],
+      "duplicate_family": "章仲山—沈氏宅斷",
+      "count_caution": "三冊不是三倍案例；同案異文不增加案例數。",
+      "content_acquired": false
+    },
+    {
+      "id": "CB010",
+      "title": "三元宅墓圖 附 家傳秘冊",
+      "authors": [
+        "趙文鳴（清）輯著"
+      ],
+      "publisher": "心一堂（秀威經銷）",
+      "publication": "2016-08",
+      "isbn": [
+        "9789888317264"
+      ],
+      "sources": [
+        {
+          "role": "official_distributor",
+          "url": "https://store.showwe.tw/books.aspx?b=10872"
+        }
+      ],
+      "schools": [
+        "三元玄空",
+        "蔣氏相關傳承（出版者說明）"
+      ],
+      "scenes": [
+        "陰陽宅",
+        "選址",
+        "立向",
+        "擇日"
+      ],
+      "count_claim": "官方經銷簡介明列宅墓案例38圖。",
+      "count_value": 38,
+      "count_unit": "案例圖",
+      "count_evidence": "official_distributor_description_claim",
+      "count_is_independent_sites": false,
+      "verification": "已核ISBN、38圖宣稱及內容範圍；未逐圖核獨立宅墓數。",
+      "usable_content": [
+        "可按作法流程建立選址—布局—立穴—定向—擇日索引。",
+        "傳承與應驗故事為書中傳統記載，非獨立證實。"
+      ],
+      "duplicate_family": "趙文鳴—宅墓圖",
+      "count_caution": "38圖不等於已去重的38處；附錄九種秘傳不是9案。",
+      "content_acquired": false
+    },
+    {
+      "id": "CB011",
+      "title": "《家傳三元古今名墓圖集 附 謝氏水鉗》《蔣氏三元名墓圖集》合刊",
+      "authors": [
+        "孫景堂",
+        "劉樂山",
+        "張稼夫輯註"
+      ],
+      "publisher": "心一堂（秀威經銷）",
+      "publication": "2017-03",
+      "isbn": [
+        "9789888317493"
+      ],
+      "sources": [
+        {
+          "role": "official_distributor",
+          "url": "https://store.showwe.tw/books.aspx?b=112269"
+        }
+      ],
+      "schools": [
+        "三元玄空"
+      ],
+      "scenes": [
+        "名墓",
+        "歷史圖集",
+        "師傳宅案"
+      ],
+      "count_claim": "稱多個實例，未見可核總數；兩冊不是兩例。",
+      "count_value": null,
+      "count_unit": "未核定宅墓圖",
+      "count_evidence": "unknown",
+      "count_is_independent_sites": false,
+      "verification": "已核正式經銷書目、ISBN與介紹；未讀圖。",
+      "usable_content": [
+        "適合歷史名墓與傳承比較來源；不作現代室內照片直接規則。"
+      ],
+      "duplicate_family": "蔣氏—三元名墓圖集",
+      "count_caution": "古今名墓與其他經典可能重收，同墓多圖不能累計。",
+      "content_acquired": false
+    },
+    {
+      "id": "CB012",
+      "title": "圖解風水100例",
+      "authors": [
+        "白鶴鳴"
+      ],
+      "publisher": "聚賢館",
+      "publication": "1992",
+      "isbn": [
+        "9789624361025"
+      ],
+      "sources": [
+        {
+          "role": "publisher_catalog",
+          "url": "https://www.juxian.com.hk/product/%E5%9C%96%E8%A7%A3%E9%A2%A8%E6%B0%B4100%E4%BE%8B/"
+        }
+      ],
+      "schools": [
+        "形勢圖解為主",
+        "兼及理氣"
+      ],
+      "scenes": [
+        "香港城市外環境",
+        "家居",
+        "商舖",
+        "寫字樓"
+      ],
+      "count_claim": "已核出版社的1至100編號目錄；屬圖解現象/論題，不能證明100處獨立住宅。",
+      "count_value": 100,
+      "count_unit": "編號圖解現象／教學條目",
+      "count_evidence": "publisher_table_of_contents",
+      "count_is_independent_sites": false,
+      "verification": "已核完整100條目錄、簡介及ISBN；未看書中100張圖和正文。",
+      "usable_content": [
+        "可建立道路與水形、周邊建物、樓宇形體、反光噪聲、物件沖向、遠近角度等索引。",
+        "只有標題的疾病財運等斷語不能導入為實際因果規則。"
+      ],
+      "duplicate_family": "白鶴鳴—圖解100例",
+      "count_caution": "書名100和完整目錄可支持教學條目數，不能支持回訪真實案例數。銷量與案數無關。",
+      "content_acquired": false
+    },
+    {
+      "id": "CB013",
+      "title": "實用風水招財法",
+      "authors": [
+        "何昭劻"
+      ],
+      "publisher": "聚賢館",
+      "publication": "1991",
+      "isbn": [
+        "9789624360882"
+      ],
+      "sources": [
+        {
+          "role": "publisher_catalog",
+          "url": "https://www.juxian.com.hk/product/%E5%AF%A6%E7%94%A8%E9%A2%A8%E6%B0%B4%E6%8B%9B%E8%B2%A1%E6%B3%95/"
+        }
+      ],
+      "schools": [
+        "天星與風水（出版者作者介紹）"
+      ],
+      "scenes": [
+        "麵檔",
+        "髮型屋",
+        "酒樓",
+        "時裝店",
+        "職業財務敘事"
+      ],
+      "count_claim": "出版者明列8個作者實際經驗案，目錄可見8個故事題。",
+      "count_value": 8,
+      "count_unit": "作者經驗敘事案",
+      "count_evidence": "publisher_description_and_table_of_contents",
+      "count_is_independent_sites": false,
+      "verification": "已讀簡介、8題目錄及ISBN；未讀案例正文或任何回訪憑證。",
+      "usable_content": [
+        "可按小餐飲、理髮、酒樓、零售等業態找案例。",
+        "勘察—設計—改良—聲稱結果應拆開記錄；營業結果需保留其他原因。"
+      ],
+      "duplicate_family": "何昭劻—招財敘事",
+      "count_caution": "真實經驗是出版者/作者自述，未經獨立證實，不能據此計算改運成功率。",
+      "content_acquired": false
+    },
+    {
+      "id": "CB014",
+      "title": "風水斷應啟示",
+      "authors": [
+        "劉啟治"
+      ],
+      "publisher": "聚賢館",
+      "publication": "1999",
+      "isbn": [
+        "9624364001"
+      ],
+      "sources": [
+        {
+          "role": "publisher_catalog",
+          "url": "https://www.juxian.com.hk/product/%E9%A2%A8%E6%B0%B4%E6%96%B7%E6%87%89%E5%95%9F%E7%A4%BA/"
+        }
+      ],
+      "schools": [
+        "巒頭",
+        "理氣",
+        "作者意境法"
+      ],
+      "scenes": [
+        "村落",
+        "室外",
+        "家居",
+        "實戰敘事"
+      ],
+      "count_claim": "出版者明言25個風水案例；目錄分五個主題，含理論/形相文章，不能把每個目錄項另當案例。",
+      "count_value": 25,
+      "count_unit": "出版者聲稱的風水案例",
+      "count_evidence": "publisher_description_claim",
+      "count_is_independent_sites": false,
+      "verification": "已核ISBN、25案簡介與目錄，未讀案例正文。",
+      "usable_content": [
+        "可用巒頭、實戰、室外、家居等主題索引；住宅與區域游訪分開。",
+        "歷史或個人遭遇敘事仍須分開事實主張與傳統解釋。"
+      ],
+      "duplicate_family": "劉啟治—斷應系列",
+      "count_caution": "系列另外三本的數量不能從本書25推估，也不能以作者40年經驗推估案量。",
+      "content_acquired": false
+    },
+    {
+      "id": "CB015",
+      "title": "玄空飛星風水",
+      "authors": [
+        "林國雄"
+      ],
+      "publisher": "聚賢館",
+      "publication": "1995",
+      "isbn": [
+        "9789624362947"
+      ],
+      "sources": [
+        {
+          "role": "publisher_catalog",
+          "url": "https://www.juxian.com.hk/product/%E7%8E%84%E7%A9%BA%E9%A3%9B%E6%98%9F%E9%A2%A8%E6%B0%B4/"
+        }
+      ],
+      "schools": [
+        "玄空飛星"
+      ],
+      "scenes": [
+        "寫字樓",
+        "門向與通道",
+        "別墅",
+        "全局立向",
+        "來水"
+      ],
+      "count_claim": "出版社目錄第二章列18個實例題；未確定是否18處獨立實際案例。",
+      "count_value": 18,
+      "count_unit": "目錄實例題",
+      "count_evidence": "manual_count_of_publisher_toc_headings",
+      "count_is_independent_sites": false,
+      "verification": "已核ISBN與第二章18題；未讀盤圖或正文。",
+      "usable_content": [
+        "辦公門向和通道、別墅勘察、整體立向、門作向、兩側來水等可作檢索維度。",
+        "對同一對象的大局與局部取向須分欄，不從書名直接認定統一取法。"
+      ],
+      "duplicate_family": "林國雄—玄空飛星風水",
+      "count_caution": "18是目錄題數，僅列為教學索引；未增加已核獨立案例數。",
+      "content_acquired": false
+    },
+    {
+      "id": "CB016",
+      "title": "陽宅風水吉凶驗證",
+      "authors": [
+        "梁劍豪"
+      ],
+      "publisher": "聚賢館",
+      "publication": "1996",
+      "isbn": [
+        "9789624363364"
+      ],
+      "sources": [
+        {
+          "role": "publisher_catalog",
+          "url": "https://www.juxian.com.hk/product/%E9%99%BD%E5%AE%85%E9%A2%A8%E6%B0%B4%E5%90%89%E5%87%B6%E9%A9%97%E8%AD%89/"
+        }
+      ],
+      "schools": [
+        "玄空飛星為主",
+        "兼有門主灶論題"
+      ],
+      "scenes": [
+        "多棟平台",
+        "Y形建物",
+        "單位入口",
+        "門路",
+        "門灶",
+        "公司"
+      ],
+      "count_claim": "介紹稱多個陽宅實例；未見明確數量。",
+      "count_value": null,
+      "count_unit": "未核定陽宅例",
+      "count_evidence": "unknown",
+      "count_is_independent_sites": false,
+      "verification": "已核ISBN、完整目錄與介紹；未讀正文。",
+      "usable_content": [
+        "目錄可定位異形樓宇、平台多棟、入住時間、單位大門取向、同屋不同運等問題。",
+        "作者症病、鬼神等標題不能轉作實證診斷。"
+      ],
+      "duplicate_family": "梁劍豪—陽宅驗證",
+      "count_caution": "不能用目錄長度冒充案例數；四宅字樣亦未核是否四獨立對象。",
+      "content_acquired": false
+    },
+    {
+      "id": "CB017",
+      "title": "設計師不傳的私房秘技：好宅風水設計500",
+      "authors": [
+        "漂亮家居編輯部"
+      ],
+      "publisher": "麥浩斯（城邦）",
+      "publication": "2017-11-16",
+      "isbn": [
+        "9789864083343"
+      ],
+      "sources": [
+        {
+          "role": "publisher_catalog",
+          "url": "https://www.cite.com.tw/book?id=74576"
+        },
+        {
+          "role": "public_library_ebook_catalog",
+          "url": "https://tnml.ebook.hyread.com.tw/bookDetail.jsp?id=136218"
+        }
+      ],
+      "schools": [
+        "現代室內設計結合民俗風水"
+      ],
+      "scenes": [
+        "玄關走廊陽台",
+        "客廳",
+        "餐廚",
+        "更衣浴廁",
+        "臥房",
+        "書房"
+      ],
+      "count_claim": "出版者稱500張設計彩圖、500個秘技；不是500個可追溯獨立風水勘察案。",
+      "count_value": 500,
+      "count_unit": "設計彩圖／設計提示",
+      "count_evidence": "publisher_description_claim",
+      "count_is_independent_sites": false,
+      "verification": "已核出版社簡介、6類場景目錄與館藏ISBN；未看500幅圖。",
+      "usable_content": [
+        "為功能空間與設計取捨提供索引；格局、遮擋、家具依靠、鏡面、梁位可作後續圖版核查項。",
+        "工程建議需另行核實，不將民俗吉凶文字當環境健康事實。"
+      ],
+      "duplicate_family": "漂亮家居—風水設計圖例",
+      "count_caution": "500不能納入既有實錄案例總數，同宅多圖可能大量重複。",
+      "content_acquired": false
+    }
+  ]
+}
+

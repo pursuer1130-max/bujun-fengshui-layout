@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "status": "valid",
+  "target_cases": 10001,
+  "target_met": false,
+  "shortfall": 9964,
+  "counts": {
+    "discovered_records": 60,
+    "discovered_urls": 40,
+    "body_read_pages": 34,
+    "text_reviewed_unique_practice": 31,
+    "text_reviewed_unique_teaching": 6,
+    "text_reviewed_unique_spatial_reference": 15,
+    "qualified_fengshui_cases": 37,
+    "visual_reviewed_fengshui_cases": 2,
+    "excluded_records": 0,
+    "quarantined_records": 4,
+    "held_out_records": 3,
+    "repeated_group_records": 0,
+    "unresolved_duplicate_records": 0,
+    "source_collision_groups_withheld": 0,
+    "split_conflict_groups_withheld": 0,
+    "visual_reviewed_spatial_references": 14,
+    "independently_verified_outcomes": 0
+  },
+  "classification_conflicts_withheld": [],
+  "split_conflicts_withheld": [],
+  "duplicate_candidates": {
+    "same_case_group": [],
+    "same_source_page": [
+      {
+        "canonical_url": "https://xn--boqti428e.com/",
+        "record_ids": [
+          "WEB-YU-001",
+          "WEB-YU-002",
+          "WEB-YU-003",
+          "WEB-YU-004"
+        ],
+        "case_group_ids": [
+          "web-yu-001",
+          "web-yu-002",
+          "web-yu-003",
+          "web-yu-004"
+        ]
+      },
+      {
+        "canonical_url": "https://www.yanjunfs.com/M/html/4502363919.html",
+        "record_ids": [
+          "WEB-YAN-001",
+          "WEB-YAN-002",
+          "WEB-YAN-003"
+        ],
+        "case_group_ids": [
+          "web-yan-001",
+          "web-yan-002",
+          "web-yan-003"
+        ]
+      },
+      {
+        "canonical_url": "https://fengshuiroom.com/cases",
+        "record_ids": [
+          "MORE-008",
+          "MORE-009"
+        ],
+        "case_group_ids": [
+          "juhe-teaching-01-bedroom",
+          "juhe-teaching-03-studio"
+        ]
+      },
+      {
+        "canonical_url": "https://data.mendeley.com/datasets/xfnynswjfd/1",
+        "record_ids": [
+          "HK-001",
+          "HK-002",
+          "HK-003",
+          "HK-004",
+          "HK-005",
+          "HK-006",
+          "HK-007",
+          "HK-008",
+          "HK-009",
+          "HK-010",
+          "HK-011",
+          "HK-012",
+          "HK-013",
+          "HK-014"
+        ],
+        "case_group_ids": [
+          "hakka-research-image-01",
+          "hakka-research-image-02",
+          "hakka-research-image-03",
+          "hakka-research-image-04",
+          "hakka-research-image-05",
+          "hakka-research-image-06",
+          "hakka-research-image-07",
+          "hakka-research-image-08",
+          "hakka-research-image-09",
+          "hakka-research-image-10",
+          "hakka-research-image-11",
+          "hakka-research-image-12",
+          "hakka-research-image-13",
+          "hakka-research-image-14"
+        ]
+      },
+      {
+        "canonical_url": "https://www.loktinfengshui.com.au/feng-shui-staircase/",
+        "record_ids": [
+          "ROUND2-007",
+          "ROUND2-008"
+        ],
+        "case_group_ids": [
+          "round2-loktin-macau-church-staircase",
+          "round2-loktin-summer-palace-side-staircase"
+        ]
+      }
+    ],
+    "unresolved_same_source_section": [],
+    "same_body_fingerprint": [],
+    "declared_near_duplicates": [],
+    "policy": "Same page or page hash can contain distinct subcases. Only explicit case_group_id merges projects. Same URL+section across different groups is withheld for review; near/text-hash candidates never auto-merge."
+  },
+  "limitations": [
+    "Counts audit recorded review declarations; they do not prove reading or image inspection happened.",
+    "Author-reported outcomes are not independently verified and do not establish causal feng shui effects.",
+    "Practice and teaching cases are separate; spatial references, held-out, excluded and quarantine records do not meet the learning target."
+  ],
+  "audited_at": "2026-10-26",
+  "metric_scope": "local_original_reading_notes_only",
+  "target_interpretation": "Legacy local-note threshold; not a requirement to newly process photos and not the size of recorded external sources.",
+  "recorded_sources_index": "recorded-sources.md",
+  "scope_updated_at": "2026-10-27"
+}

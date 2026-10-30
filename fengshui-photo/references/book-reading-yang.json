@@ -1,0 +1,96 @@
+{
+  "schema_version": "bujun-book-reading-1",
+  "read_at": "2026-10-30",
+  "scope": "阳宅古籍正文、古序指定叶及版本元数据；不等于通读全部传本或完成任何案例数量目标",
+  "new_consulting_cases": 0,
+  "customer_images_processed": 0,
+  "records": [
+    {
+      "id": "YBK-001",
+      "work": "宅经（四库全书本）卷上",
+      "attribution": "旧题黄帝；托名，时代与作者不能据题署确定",
+      "material_role": "ancient_primary_text_web_transcription",
+      "read_state": "full_local_page_body_read",
+      "local_reference": "classics/01-zhaijing-juan-shang.txt",
+      "source_url": "https://zh.wikisource.org/wiki/宅經_(四庫全書本)/卷上",
+      "fixed_revision_url": "https://zh.wikisource.org/w/index.php?title=宅經_(四庫全書本)/卷上&oldid=626943",
+      "read_scope": "本地固定修订网页转录从正文开始至正文结束的全部文字，含开篇、二宅/二十四路、五虚五实、修宅次第、宅体类比与月生死气表；不是全书各版本足本",
+      "anchors": ["客居一室与大小分论", "凡辨宅者皆取移来方位", "宅有五虚五实", "凡修宅次第法", "宅以形势为身体", "来路与抵路", "正月至十二月生气死气"],
+      "knowledge_added": ["尺度先定", "人宅用途相称", "环境与宅体整体观察", "古二宅术语不直接等同现代居宅墓地二分", "修造与历法规则不据单图套用"],
+      "limits": ["未逐字校影印底本", "不将灾福断语作为已验证因果", "未构造排盘或择日算法", "二十四路和古注措辞仍须版本核校"],
+      "rights": "古原著公版；协作转录按来源CC BY-SA 4.0及署名链保留"
+    },
+    {
+      "id": "YBK-002",
+      "work": "宅经（四库全书本）卷下",
+      "attribution": "与卷上同用四库本网页，不静默混入普通本",
+      "material_role": "ancient_primary_text_web_transcription",
+      "read_state": "full_local_page_body_read",
+      "local_reference": "classics/02-zhaijing-juan-xia.txt",
+      "source_url": "https://zh.wikisource.org/wiki/宅經_(四庫全書本)/卷下",
+      "fixed_revision_url": "https://zh.wikisource.org/w/index.php?title=宅經_(四庫全書本)/卷下&oldid=626945",
+      "read_scope": "本地固定修订网页全部正文，含月土气、前后两套二十四路、内院与外院配置和修造日注",
+      "anchors": ["凡修筑垣墙建造宅宇", "天门阳首", "乾天门阴极阳首", "内院与外院", "南方宜□拓吉"],
+      "knowledge_added": ["同名宫位须连所属段落与院落阅读", "配置表依赖体系及对象，不能拼为万能高低表", "缺字不自行补成施工或测算法"],
+      "limits": ["有□等缺字", "无本次影印核校", "无图版核验", "未采人事应验时限或健康断语"],
+      "rights": "古原著公版；协作转录按来源CC BY-SA 4.0及署名链保留"
+    },
+    {
+      "id": "YBK-003",
+      "work": "阳宅十书一（图书集成艺术典675卷所收）",
+      "attribution": "阳宅十书传统归王君荣；当前读的是类书所收转录，不冒称1882扫叶山房原本已校",
+      "material_role": "ancient_primary_text_collected_excerpt_web_transcription",
+      "read_state": "selected_sections_read",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第675卷",
+      "read_scope": "论宅外形第一正文开篇（web140—184行）；论福元第二、福元说、入掌纹起例说及起男女上中下元诀与问答（883—936行）。中间图说与人事歌诀只浏览到部分文字，不登记全文或图像已读",
+      "anchors": ["论宅外形第一", "论福元第二", "福元说", "生年福德与宅八方", "截路分房问答"],
+      "knowledge_added": ["外形与内形分层", "福元依该文生年口径，与建筑向首及现代玄空宅运不同"],
+      "limits": ["未看图版", "未核三元历法换算或现代命卦算法", "不把出生年表或图说计为咨询案例", "未采灾福归因"],
+      "rights": "古原著公版；协作转录保持维基文库署名链与CC BY-SA 4.0边界"
+    },
+    {
+      "id": "YBK-004",
+      "work": "阳宅十书三（图书集成艺术典677卷所收）",
+      "material_role": "ancient_primary_text_collected_excerpt_web_transcription",
+      "read_state": "selected_sections_read",
+      "source_url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第677卷",
+      "read_scope": "论放水第七与放水歌（147—179行）；二十四山放水定局引言及表文（291—297行）；论宅内形第八、内形篇、火唵说/歌、火路吉凶歌（306—369行）。部分相邻条文随提取显示；图说标题与选择篇只作定位，不登记图像或全卷通读",
+      "anchors": ["二十四山放水定局", "论宅内形第八", "内形篇", "火唵说", "火路吉凶歌疑传流之误"],
+      "knowledge_added": ["堂廊天井与前场须联看", "火唵对象和文本分歧需核", "内文自记疑误，不以残句定规则"],
+      "limits": ["未实看配图", "未校原刻本", "未据表生成水法或择日引擎", "古尺数、构件和出水方位不作现代施工标准"],
+      "rights": "古原著公版；协作转录保持维基文库署名链与CC BY-SA 4.0边界"
+    },
+    {
+      "id": "YBK-005",
+      "work": "孙星衍《相宅书叙》（谈阳宅三要）",
+      "material_role": "ancient_preface_partial_transcription_not_yangzhai_sanyao_body",
+      "read_state": "two_selected_pages_read_preface_not_complete",
+      "source_urls": ["https://zh.wikisource.org/wiki/Page:Sibu_Congkan1822-孫星衍-孫淵如詩文集-8-1.djvu/60", "https://zh.wikisource.org/wiki/Page:Sibu_Congkan1822-孫星衍-孫淵如詩文集-8-1.djvu/61"],
+      "fixed_revision_urls": ["https://zh.wikisource.org/w/index.php?title=Page:Sibu_Congkan1822-孫星衍-孫淵如詩文集-8-1.djvu/60&oldid=1052533", "https://zh.wikisource.org/w/index.php?title=Page:Sibu_Congkan1822-孫星衍-孫淵如詩文集-8-1.djvu/61&oldid=1052534"],
+      "read_scope": "两页全部可见转录正文（各web105—127行）；均标未校对；第二页末句接下页，未读62页，序未读完",
+      "anchors": ["宅门灶", "门内之院与宅灶所在之院", "房门论方与大门异", "灶屋门灶座灶火门"],
+      "knowledge_added": ["灶相关对象分离", "不同序文立场不拼成统一算法"],
+      "limits": ["未核影印图", "不是阳宅三要正文", "未读完整序文", "不采用自称断验如神等评价为证据"],
+      "rights": "古原著公版；未校对协作转录保留维基文库署名链与CC BY-SA 4.0边界"
+    },
+    {
+      "id": "YBK-META-006",
+      "work": "阳宅三要四卷第一册（诸暨图书馆乾隆刻本）",
+      "material_role": "scan_metadata_only",
+      "read_state": "metadata_read_body_not_read",
+      "source_url": "https://commons.wikimedia.org/wiki/File:ZJSLib-FLDB-2459-1_陽宅三要四卷_第一冊.pdf",
+      "metadata_read": "元数据署赵廷栋著，赵梦麟、赵白麟校订，王庸弼、张含章参著，张晋声校阅；题乾隆刻本；第一册176页，82.05MB；原PDF机械扫描公版标记。仅为原站所录，未校书影",
+      "body_attempt": "原文件经web点击返回400：Content length is too large: 86032405；预览链接存在不等于本次看过图",
+      "limits": ["原书影正文未读", "没有把176页记为176个案例", "没有复制全文或绕过访问限制"],
+      "rights": "Commons标PD-scan/古原著公版；正文未下载或再分发"
+    },
+    {
+      "id": "YBK-FAIL-007",
+      "work": "阳宅十书（ctext馆藏入口）",
+      "material_role": "access_attempt_only",
+      "read_state": "direct_request_failed",
+      "source_url": "https://ctext.org/library.pl?if=en&res=90995",
+      "result": "403 Forbidden；搜索缓存能见目录元数据/OCR初稿提示，不冒称已读影印或整本"
+    }
+  ]
+}

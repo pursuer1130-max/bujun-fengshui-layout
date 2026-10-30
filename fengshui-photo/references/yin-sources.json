@@ -1,0 +1,82 @@
+{
+  "schema_version": "knowledge-v8-yin-1",
+  "reviewed_at": "2026-10-30",
+  "scope": "阴宅功能的古籍选段与方法阅读；不处理照片，不新增原案，不验证效验",
+  "verification": {
+    "classical_works_selected": 3,
+    "modern_method_article_bodies_read": 1,
+    "existing_case_bodies_reread": 1,
+    "new_practice_case_records": 0,
+    "images_viewed_or_processed": 0,
+    "outcomes_independently_verified": 0
+  },
+  "sources": [
+    {
+      "source_id": "YIN-S01",
+      "title": "葬书（四库全书本）",
+      "attribution": "旧题晋郭璞；所存四库提要自述归属、编次与古注传承争议",
+      "source_kind": "classical_web_transcription",
+      "local_file": "references/classics/03-zangshu-siku.txt",
+      "canonical_url": "https://zh.wikisource.org/wiki/葬書_(四庫全書本)",
+      "revision_url": "https://zh.wikisource.org/w/index.php?title=%E8%91%AC%E6%9B%B8_(%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC)&oldid=626972",
+      "actual_read_scope": "本地文件头与提要、内篇前部至远势近形段；选读童断石过独及古注、支陇近形、前后屏障、四兽至水形段。具体段首与行范围见book-reading-yin.json。未逐字校底本或读全篇。",
+      "source_note": "所存文字分远势近形，四兽从立穴处言之；古注有平洋低阜及龙虎俗传辨析，童断石过独也列例外。用于学习关系与尺度，不把古书人事断语当成实证。",
+      "rights": "古原著公版范围；协作转录与整理按来源CC BY-SA 4.0及文件头署名链保留",
+      "limits": ["网页转录，非影印底本逐字校勘", "古注与经文分层；不能把注家解释一概署为郭璞原话", "本轮未研读全书所有段落"]
+    },
+    {
+      "source_id": "YIN-S02",
+      "title": "撼龙经",
+      "attribution": "旧题唐杨筠松，题署与传说有争议",
+      "source_kind": "classical_web_transcription",
+      "local_file": "references/classics/04-hanlongjing.txt",
+      "canonical_url": "https://zh.wikisource.org/wiki/撼龍經",
+      "revision_url": "https://zh.wikisource.org/w/index.php?title=%E6%92%BC%E9%BE%8D%E7%B6%93&oldid=2646322",
+      "actual_read_scope": "文件头及正文开篇到禄存前部（本地1–47行），实际用于开篇高山/平洋与贪狼峰形、护从反顾、近局辨别。未将篇首疑龙经、葬法倒杖目录名当本文已收全文。",
+      "source_note": "开篇兼论高山与平洋水势、周回和微起伏；峰形虽美仍须辨护从与落局。由此不把高峰或无高峰单独作结论，形峦星名也不直接等于飞星盘数字。",
+      "rights": "古原著公版范围；协作转录与整理保留来源CC BY-SA 4.0及署名链",
+      "limits": ["只研读前部选段，不是通读全书", "本轮没有建立九星象形分类器或排盘算法", "未采用公侯富贵等因果断语"]
+    },
+    {
+      "source_id": "YIN-S03",
+      "title": "疑龙经·上篇",
+      "attribution": "旧题唐杨筠松；作者归属与版本须审慎",
+      "source_kind": "classical_web_transcription",
+      "local_file": "references/classics/05-yilongjing-shang.txt",
+      "canonical_url": "https://zh.wikisource.org/wiki/撼龍經/疑龍經/上篇",
+      "revision_url": "https://zh.wikisource.org/w/index.php?title=%E6%92%BC%E9%BE%8D%E7%B6%93/%E7%96%91%E9%BE%8D%E7%B6%93/%E4%B8%8A%E7%AF%87&oldid=1160959",
+      "actual_read_scope": "本地文件1–28行：文件头及上篇可见正文，重点读枝干、护从、水口山、朝水朝山与明堂/关峡的辨别。未读中下篇或疑龙十问等附篇。",
+      "source_note": "上篇警惕把枝叶星峰、护关和秀丽围合误作所求落局，并将明堂、朝应与水口连看。当前分析据此先校形体关系，不以中央空地或好看山峰自动定名。",
+      "rights": "古原著公版范围；协作转录与整理保留来源CC BY-SA 4.0及署名链",
+      "limits": ["上篇网页转录未校影印底本", "原书人事等级和效验断语不移作当前事实", "本轮未据词句输出坐标穴点"]
+    },
+    {
+      "source_id": "YIN-S04",
+      "title": "The Practice of Yin House Feng Shui",
+      "author_or_org": "Joey Yap",
+      "published_at": "2006-10-01",
+      "canonical_url": "https://www.joeyyap.com/tutorial/tutorial-details.asp?tid=501",
+      "source_kind": "author_method_teaching_not_case_record",
+      "actual_read_scope": "原作者站正文132–162行，重点为地块、棺轴、立碑阶段及地形/内外水、排水沟孔的对象区分；只存极短原创摘要。未看图片或下载著作。",
+      "source_note": "作者分开讨论地块、棺轴与立碑，并强调地形和内外水；某些墓旁沟孔在其文中只是排水。系其教学口径，未复核历史、政策与效验说法，未当通派定则。",
+      "rights": "原站显示All rights reserved；本项目仅保留元数据、链接与短原创笔记",
+      "limits": ["方法教学，不是一个新实践个案", "文中平地偏好与本地古书平洋条件不能合成普遍排除平地规则", "未沿用其家族效验、骨灰方式优劣、历史断言或2006年政策叙述", "未把排水与某水法取口之别抹平"]
+    },
+    {
+      "source_id": "YIN-S05",
+      "existing_record_id": "ROUND2-004",
+      "title": "Geng Facing, Water from Kun Produces Heros / Yin Feng Shui Case study from China",
+      "author_or_org": "Edgar Lok Tin Yung（刊载、意译）；未具名同门（叙述者）",
+      "canonical_url": "https://www.loktinfengshui.com.au/yin-feng-shui-case-study-from-china-provided-by-a-feng-shui-fellow-student/",
+      "source_kind": "hosted_translation_existing_reported_practice",
+      "actual_read_scope": "重开并读79–104行：刊载者解释同门自述、意译性质、日期与人工出水口；未看中文原稿图片。与旧记录同案，不计新增案例。",
+      "source_note": "同门译述在墓地设坤位人工出水口。标题称Geng Facing，正文却写sits on Geng；坐向未定。所说后续变化未独立核验，不由此推生育或后代结果。",
+      "rights": "原站All rights reserved；仅保留元数据、链接与短原创笔记，未存客户照片",
+      "limits": ["原中文在图片，本轮未查看；不能借英文自行定庚坐或庚向", "人工口为叙述者特定Yang Gong San Yuen Yuen Gua取法", "没有现场水文、测点、精确角度和误差", "既有原案重读纠错，不增加案例数"]
+    }
+  ],
+  "not_adopted": [
+    {"url": "https://zh.wikisource.org/wiki/雪心賦", "status": "direct_open_failed", "reason": "工具不可访问，未读正文，不称已学习该书"},
+    {"url": "https://www.loktinfengshui.com.au/yin-yang-feng-shui/", "status": "body_selected_read_not_used_as_case", "actual_read_scope": "80–95行概念教学", "reason": "只用于确认其阴阳宅术语，不纳入新案，也不采纳经营或人事归因"}
+  ]
+}

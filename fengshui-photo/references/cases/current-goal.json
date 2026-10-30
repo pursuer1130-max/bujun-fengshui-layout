@@ -1,0 +1,14 @@
+{
+  "updated_at": "2026-10-30",
+  "requested_existing_case_target": 100000,
+  "target_unit": "可追溯的独立既有记载案例；实践自述与教学分列，译文、转载、复访归组",
+  "status": "incomplete",
+  "target_complete": false,
+  "confirmed_global_unique_cases_read": null,
+  "legacy_qualified_local_notes": 37,
+  "v7_additional_text_groups": 12,
+  "latest_priority": "直接查阅书籍正文，学习并完善阳宅、阴宅知识与分析功能",
+  "book_reading_is_separate_from_case_count": true,
+  "new_photos_or_reports_required_to_reach_target": false,
+  "limitations": "旧本地笔记与新增材料不直接合加为唯一咨询原案数；书目、篇卷、主题、研究交易样本、OCR切片和合成问答不计作目标完成数。"
+}

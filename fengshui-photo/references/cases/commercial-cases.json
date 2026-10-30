@@ -1,0 +1,249 @@
+{
+  "schema_version": "knowledge-v7-commercial-1",
+  "accessed_at": "2026-10-29",
+  "scope": "办公室、工位、超市收银、汽车经销商及商业教学图例的原作者或机构公开正文研读",
+  "rights": "metadata_and_short_original_notes_only; no source text or customer images saved",
+  "verification": {
+    "baseline_checked": "references/cases/cases.jsonl",
+    "new_canonical_urls_against_case_ledger": 6,
+    "case_groups": 6,
+    "canonical_article_bodies_read": 6,
+    "related_article_introductions_only": 1,
+    "classification_counts": {
+      "practice_self_report": 3,
+      "caller_question_with_teaching": 1,
+      "institution_short_case_practice_status_unclear": 1,
+      "explicit_teaching_illustration": 1
+    },
+    "images_viewed": 0,
+    "images_saved": 0,
+    "independently_verified_outcomes": 0,
+    "counting_limit": "6个正文材料组，包括1则明确教学图例和1则实践身份不明的机构简例；不是6份独立核验的现场咨询报告。"
+  },
+  "cases": [
+    {
+      "record_id": "COMV7-001",
+      "case_group_id": "joey-yap-office-diy-2006",
+      "canonical_url": "https://www.joeyyap.com/tutorial/tutorial-details.asp?tid=394",
+      "source_title": "To DIY or not to DIY ...",
+      "author_or_org": "Joey Yap",
+      "published_at": "2006-02-12",
+      "record_kind": "practice_self_report_with_teaching",
+      "source_role": "original_author",
+      "actual_read_scope": "公开文章正文 web lines 132–192；重点为 How NOT to Do It Yourself、Big Picture、When to FIY；未访问正文后无关外链。",
+      "source_note": {
+        "spatial_facts_reported": "办公室隔间多斜角；员工为各自命卦斜摆桌，通行困难，入口也斜置。",
+        "author_method_and_proposal": "作者述先核外局、宅卦及飞星，再细调关键人员命卦，并将门摆正。",
+        "limits": "无尺寸、角度及回访；末段宅卦命卦用语前后不一，未据其复排。人事断语及外内七三比例不采为证据。"
+      },
+      "spatial_evidence": "source_text_reported_not_independently_observed",
+      "implementation_status": "author_describes_redesign_no_independent_followup",
+      "outcome_status": "no_verified_outcome",
+      "grouping": "同一办公室的隔间、桌位和斜门合为一组。",
+      "rule_ids": [
+        "COM-R1",
+        "COM-R6"
+      ],
+      "tags": [
+        "办公室",
+        "斜桌",
+        "多人命卦",
+        "通道",
+        "斜门",
+        "宅卦",
+        "玄空飞星"
+      ]
+    },
+    {
+      "record_id": "COMV7-002",
+      "case_group_id": "joey-yap-cubicle-caller-2003",
+      "canonical_url": "https://www.joeyyap.com/tutorial/tutorial-details.asp?tid=10",
+      "source_title": "It's A Cubicle Thing",
+      "author_or_org": "Joey Yap",
+      "published_at": "2003-06-17",
+      "record_kind": "caller_question_with_teaching",
+      "source_role": "original_author",
+      "actual_read_scope": "公开文章正文 web lines 131–155，含电话来问的背窗工位及后续通用教学；未将通用星组例另拆项目。",
+      "source_note": {
+        "spatial_facts_reported": "来电者不能搬工位，背后是窗，已放龟像，拟在电脑上贴镜。",
+        "author_method_and_proposal": "作者反对背窗一概不利，要求另核窗外尖角、直路等；有冲突时提出百叶帘，并讨论命卦与飞星。",
+        "limits": "电话叙述，未见窗外或现场；未记实施回访。原文示意打分、八成说法和星曜人事预测均未采纳。"
+      },
+      "spatial_evidence": "caller_report_recounted_by_author_not_site_inspection",
+      "implementation_status": "advice_only_no_reported_implementation",
+      "outcome_status": "no_verified_outcome",
+      "rule_ids": [
+        "COM-R2"
+      ],
+      "tags": [
+        "办公室",
+        "工位",
+        "背窗",
+        "镜子",
+        "窗帘",
+        "不可搬动",
+        "外局待核"
+      ]
+    },
+    {
+      "record_id": "COMV7-003",
+      "case_group_id": "chue-southern-spain-supermarket-2026",
+      "canonical_url": "https://chuefoundation.org/en/research_detail.php?id=216",
+      "alternate_urls": [
+        "https://www.chuefoundation.org/en/research_detail.php?id=196"
+      ],
+      "source_title": "How Feng Shui Improves Retail Performance - Part 2",
+      "author_or_org": "Senior Master Teri Garcia, Spain / Chue Feng Shui Foundation",
+      "published_at": "2026-09-23",
+      "record_kind": "practice_self_report_with_teaching",
+      "source_role": "original_institution_and_named_author",
+      "actual_read_scope": "Part 2公开正文 web lines 29–72，含中心区、收银、卸货及货类分区；关联Part 1只读到标题、署名与南西班牙超市介绍 web lines 29–37，未宣称读完其入口分析。",
+      "source_note": {
+        "spatial_facts_reported": "作者选出口附近西南收银区，另涉左侧站位及东北往西南的移动；东侧卸货，西侧拟管理区。",
+        "author_method_and_proposal": "用Chue式Ba Chop九曜星评内区，中心及招牌加拱形，称以金泄土。",
+        "limits": "client身份及左右基准未明；无尺度、测向和回访。方位不可泛化，两篇属同一超市。"
+      },
+      "spatial_evidence": "source_text_reported_not_independently_observed",
+      "implementation_status": "recommendations_described_implementation_not_established",
+      "outcome_status": "no_verified_outcome",
+      "grouping": "同一超市Part 1与Part 2合组；仅Part 2正文已完整研读。",
+      "rule_ids": [
+        "COM-R3",
+        "COM-R5"
+      ],
+      "tags": [
+        "超市",
+        "收银",
+        "出口",
+        "交易方向",
+        "卸货",
+        "中心",
+        "Ba Chop",
+        "流派专法"
+      ]
+    },
+    {
+      "record_id": "COMV7-004",
+      "case_group_id": "intuitive-concepts-tansky-sawmill-toyota",
+      "canonical_url": "https://intuitiveconcepts.com/tansky-sawmill-toyota-case-study/",
+      "source_title": "Tansky Sawmill Toyota Case Study",
+      "author_or_org": "Intuitive Concepts / ICDG",
+      "published_at": "2020-08-04 (page metadata timestamp; original project date not established)",
+      "record_kind": "practice_self_report",
+      "source_role": "original_consulting_institution",
+      "actual_read_scope": "公开正文 web lines 50–68及后续图片栏目名称；未打开前后对照照片，未查看客户网站。",
+      "source_note": {
+        "spatial_facts_reported": "汽车经销商原建筑维修区大于销售及运营区；研究合一栋或分两栋，并统筹两条道路入口、代客维修入口和接待。",
+        "author_method_and_proposal": "咨询机构称参与选址、扩建及总规划，兼顾旧建筑与新增部分。",
+        "limits": "未列具体理气盘及最终门桌尺度；竣工与经营效果均为机构说法，不能单归风水。"
+      },
+      "spatial_evidence": "source_text_reported_not_independently_observed",
+      "implementation_status": "institution_reports_completed_project_without_as_built_plan",
+      "outcome_status": "institution_claims_only_no_independent_verification",
+      "rule_ids": [
+        "COM-R5",
+        "COM-R6"
+      ],
+      "tags": [
+        "汽车经销商",
+        "扩建",
+        "旧新边界",
+        "多入口",
+        "维修动线",
+        "接待",
+        "总规划"
+      ]
+    },
+    {
+      "record_id": "COMV7-005",
+      "case_group_id": "singaporefengshuimaster-raffles-marketing-agency",
+      "canonical_url": "https://singaporefengshuimaster.sg/what-happens-during-a-professional-feng-shui-audit/",
+      "source_title": "What Happens During a Professional Feng Shui Audit? — Office Feng Shui Audit in Singapore",
+      "author_or_org": "Singapore Feng Shui Master (page by admin)",
+      "published_at": "2025-08-12",
+      "record_kind": "institution_short_case_practice_status_unclear",
+      "source_role": "publishing_consulting_institution_named_practitioner_not_given",
+      "actual_read_scope": "公开正文 web lines 51–170；案例节 web lines 142–149。通用流程与该简例分开阅读，未将流程叙述充作该项目测量证据。",
+      "source_note": {
+        "spatial_facts_reported": "机构简述营销公司入口被大接待台阻挡，负责人桌与门同线，闲置设备堆占所谓财位。",
+        "author_method_and_proposal": "文称重摆接待与负责人桌，增植物及照明；案例节未给专法计算。",
+        "limits": "未列咨询者、平面尺度和日期，实践身份不明；数月后人员与咨询量改善只是机构说法。"
+      },
+      "spatial_evidence": "institution_anonymised_summary_no_plan_or_measurements",
+      "implementation_status": "institution_describes_changes_practice_provenance_unclear",
+      "outcome_status": "institution_claims_only_no_independent_verification",
+      "rule_ids": [
+        "COM-R4"
+      ],
+      "tags": [
+        "办公室",
+        "接待台",
+        "入口受阻",
+        "桌门同线",
+        "简例",
+        "实践身份不明"
+      ]
+    },
+    {
+      "record_id": "COMV7-006",
+      "case_group_id": "fengmaster-teaching-tea-gift-tjunction-2026",
+      "canonical_url": "https://www.fengmaster.com/blog/case-study-poison-arrow-shophouse-kl",
+      "source_title": "Case Study: The Shop at the End of the Road — A T-Junction and a Till Facing the Wrong Way",
+      "author_or_org": "FengMaster / Pandit.com",
+      "published_at": "2026-07-31",
+      "record_kind": "explicit_teaching_illustration",
+      "source_role": "original_publishing_institution",
+      "actual_read_scope": "公开正文 web lines 35–67；正文自注为illustrative case written for teaching，人物身份改写；未使用其在线命卦或财位计算器。",
+      "source_note": {
+        "spatial_facts_reported": "教学茶礼店置于丁字路尽端，来路对正门；柜台朝东，门与柜台之间拟设半屏及曲折花盆路线。",
+        "author_method_and_proposal": "作者用形势及个人命卦，称转柜让人面西北，并推荐门外象征物。",
+        "limits": "明确教学叙事；无尺寸，命卦未复算；效验非现场证据，象征物不采为必需品。"
+      },
+      "spatial_evidence": "explicit_teaching_narrative_not_observed_client_geometry",
+      "implementation_status": "teaching_remedy_sequence_not_verified_construction",
+      "outcome_status": "teaching_narrative_no_verified_outcome",
+      "rule_ids": [
+        "COM-R3",
+        "COM-R4",
+        "COM-R6"
+      ],
+      "tags": [
+        "店铺",
+        "茶礼店",
+        "丁字路",
+        "门柜同线",
+        "屏风",
+        "花盆",
+        "个人命卦",
+        "教学图例"
+      ]
+    }
+  ],
+  "not_added": [
+    {
+      "source": "Golden Spring Feng Shui 专栏文章",
+      "reason": "目录可检索，正文抓取失败；未用目录标题冒充案例正文。"
+    },
+    {
+      "source": "Joey Yap Where's the beef? / Soo Kee Restaurant",
+      "reason": "现有账本MORE-002已收，不新增。"
+    },
+    {
+      "source": "Soulspace Case Study – Office Feng Shui",
+      "reason": "现有账本MORE-001已收，不新增。"
+    },
+    {
+      "source": "Upper Hutt Office Feng Shui",
+      "reason": "同批外局材料EXV7-002已整理，跨分工去重。"
+    },
+    {
+      "source": "Centaine tilted main door 81 to 87 degrees",
+      "reason": "已读但为住宅自述，未纳入商业材料数。"
+    },
+    {
+      "source": "Salon article / Feng Shui Mechanics category",
+      "reason": "媒体转载与分类摘要不足以当原作者完整文字空间案例；不另计。"
+    }
+  ],
+  "distribution_note": "Original short reading notes with source pointers; no source article or customer image included."
+}
